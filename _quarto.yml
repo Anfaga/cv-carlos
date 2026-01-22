@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Carlos Andrés Falla Gaitán"
+  #favicon: images/favicon.png
+  navbar:
+    background: "#FF9800"
+    foreground: white
+    pinned: true
+    left:
+      - text: "CV"
+        href: index.qmd
+      - text: "Descargar PDF"
+        href: index.pdf
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/canfaga
+      - icon: envelope
+        href: mailto:anfagadsc@gmail.com
+
+format:
+  html:
+    theme:
+      light: [cosmo, custom.scss]
+    css: styles.css
+    toc: false
+    page-layout: full
+    grid:
+      sidebar-width: 0px
+      body-width: 1200px
+      margin-width: 0px

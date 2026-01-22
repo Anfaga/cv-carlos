@@ -1,0 +1,226 @@
+[
+  {
+    "objectID": "PROYECTO-RESUMEN.html",
+    "href": "PROYECTO-RESUMEN.html",
+    "title": "📦 RESUMEN DEL PROYECTO - CV CARLOS FALLA",
+    "section": "",
+    "text": "Un CV profesional completo construido con Quarto que incluye:\n\n\n\n✅ index.qmd - Tu CV (HTML interactivo)\n✅ cv-data.yml - TODOS tus datos (aquí editas TODO)\n✅ _quarto.yml - Configuración del proyecto\n✅ styles.css + custom.scss - Diseño personalizado\n✅ cv-carlos.Rproj - Proyecto de RStudio\n✅ README.md - Documentación completa\n✅ INICIO-RAPIDO.md - Guía paso a paso\n\n\n\n\n✅ Layout de 2 columnas - Sidebar izquierda: Perfil, Educación, Software, Idiomas, Intereses - Contenido principal: Skills, Experiencia, Referencias\n✅ Colores corporativos - Naranja (#FF9800) - Color principal - Cyan (#00BCD4) - Color secundario - Azul (#1976D2) - Acentos\n✅ Secciones incluidas - 📊 Perfil con estadísticas (certificaciones) - 🎓 Educación - 💻 Software con niveles visuales (dots) - 🌍 Idiomas con barras de progreso - 🚀 Skills - 💼 Experiencia (timeline visual) - 👥 Referencias - 🎯 Intereses y Hobbies\n✅ Responsive - Se adapta a móviles y tablets\n✅ Exportable - HTML (web) - PDF (impresión)\n\n\n\n\n\n\nDoble click en: cv-carlos.Rproj\n\n\n\n# En RStudio, abre index.qmd y presiona \"Render\"\n# O en la consola:\nquarto::quarto_preview()\n\n\n\nAbre: cv-data.yml\nEdita lo que necesites\nGuarda (Ctrl+S)\n¡Listo!\n\n\n\n\n\n\n\nCaracterística\nTu Imagen Original\nEste Proyecto Quarto\n\n\n\n\nDiseño 2 columnas\n✅\n✅\n\n\nColores naranja/cyan\n✅\n✅\n\n\nFoto perfil circular\n✅\n✅\n\n\nInfo contacto\n✅\n✅\n\n\nEducación\n✅\n✅\n\n\nSkills visuales\n✅\n✅\n\n\nSoftware con niveles\n✅\n✅ (dots)\n\n\nIdiomas\n✅\n✅ (barras)\n\n\nExperiencia\n✅\n✅ (timeline)\n\n\nIntereses con iconos\n✅\n✅ (emojis)\n\n\nReferencias\n✅\n✅\n\n\nPLUS: Interactivo\n❌\n✅\n\n\nPLUS: Fácil editar\n❌\n✅ (YAML)\n\n\nPLUS: Export PDF\n❌\n✅\n\n\nPLUS: Online gratis\n❌\n✅ (GitHub Pages)\n\n\n\n\n\n\nDespués de ver tu CV básico, podemos agregar:\n\n\n\n✨ Tooltips al hacer hover en skills\n✨ Animaciones suaves\n✨ Click para expandir experiencias\n\n\n\n\n\n📊 Gráfico de skills con Highcharter\n🗺️ Mapa interactivo de países donde trabajaste\n📈 Timeline interactivo\n\n\n\n\n\n🔍 Buscador de experiencias\n🌐 Versión en inglés (cambio de idioma)\n📱 PWA (app instalable)\n\n\n\n\n\n✅ Más simple de mantener (solo YAML) ✅ Hosting gratis (GitHub Pages) ✅ PDF perfecto sin complicaciones ✅ Más rápido de cargar ✅ No requiere servidor ✅ Versionable con Git\n\n\n\n\nTODO se edita en cv-data.yml\n\nNunca toques index.qmd para cambios de datos\n\nPara ver cambios\n\nGuarda cv-data.yml\nRender automático si usas quarto preview\n\nPara publicar\n\nGitHub Pages es GRATIS\nSolo necesitas subir a GitHub\n\nPara PDF\n\nPuedes necesitar TinyTeX o Chrome\nSe instala fácil: quarto::quarto_install_tinytex()\n\n\n\n\n\n\nDocumentación Quarto: https://quarto.org/docs/guide/\nTutoriales: https://quarto.org/docs/get-started/\nGalería de ejemplos: https://quarto.org/docs/gallery/\nGitHub Pages: https://pages.github.com/\n\n\n\n\nSi algo no funciona: 1. Lee INICIO-RAPIDO.md 2. Revisa README.md 3. Pregúntame de nuevo 😊\n\n\n\n\nTienes un CV profesional, moderno y fácil de mantener.\nSiguiente acción recomendada: 1. Abre cv-carlos.Rproj 2. Click en “Render” 3. ¡Ve tu CV en acción!\n¿Listo para mejorarlo? Dime qué te gustaría agregar: - ¿Gráficos interactivos? - ¿Mapa de países? - ¿Timeline animado? - ¿Otra cosa?\n¡Estoy aquí para ayudarte! 🚀"
+  },
+  {
+    "objectID": "PROYECTO-RESUMEN.html#lo-que-tienes-ahora",
+    "href": "PROYECTO-RESUMEN.html#lo-que-tienes-ahora",
+    "title": "📦 RESUMEN DEL PROYECTO - CV CARLOS FALLA",
+    "section": "",
+    "text": "Un CV profesional completo construido con Quarto que incluye:\n\n\n\n✅ index.qmd - Tu CV (HTML interactivo)\n✅ cv-data.yml - TODOS tus datos (aquí editas TODO)\n✅ _quarto.yml - Configuración del proyecto\n✅ styles.css + custom.scss - Diseño personalizado\n✅ cv-carlos.Rproj - Proyecto de RStudio\n✅ README.md - Documentación completa\n✅ INICIO-RAPIDO.md - Guía paso a paso\n\n\n\n\n✅ Layout de 2 columnas - Sidebar izquierda: Perfil, Educación, Software, Idiomas, Intereses - Contenido principal: Skills, Experiencia, Referencias\n✅ Colores corporativos - Naranja (#FF9800) - Color principal - Cyan (#00BCD4) - Color secundario - Azul (#1976D2) - Acentos\n✅ Secciones incluidas - 📊 Perfil con estadísticas (certificaciones) - 🎓 Educación - 💻 Software con niveles visuales (dots) - 🌍 Idiomas con barras de progreso - 🚀 Skills - 💼 Experiencia (timeline visual) - 👥 Referencias - 🎯 Intereses y Hobbies\n✅ Responsive - Se adapta a móviles y tablets\n✅ Exportable - HTML (web) - PDF (impresión)"
+  },
+  {
+    "objectID": "PROYECTO-RESUMEN.html#cómo-empezar-3-pasos",
+    "href": "PROYECTO-RESUMEN.html#cómo-empezar-3-pasos",
+    "title": "📦 RESUMEN DEL PROYECTO - CV CARLOS FALLA",
+    "section": "",
+    "text": "Doble click en: cv-carlos.Rproj\n\n\n\n# En RStudio, abre index.qmd y presiona \"Render\"\n# O en la consola:\nquarto::quarto_preview()\n\n\n\nAbre: cv-data.yml\nEdita lo que necesites\nGuarda (Ctrl+S)\n¡Listo!"
+  },
+  {
+    "objectID": "PROYECTO-RESUMEN.html#comparación-tu-diseño-vs-quarto",
+    "href": "PROYECTO-RESUMEN.html#comparación-tu-diseño-vs-quarto",
+    "title": "📦 RESUMEN DEL PROYECTO - CV CARLOS FALLA",
+    "section": "",
+    "text": "Característica\nTu Imagen Original\nEste Proyecto Quarto\n\n\n\n\nDiseño 2 columnas\n✅\n✅\n\n\nColores naranja/cyan\n✅\n✅\n\n\nFoto perfil circular\n✅\n✅\n\n\nInfo contacto\n✅\n✅\n\n\nEducación\n✅\n✅\n\n\nSkills visuales\n✅\n✅\n\n\nSoftware con niveles\n✅\n✅ (dots)\n\n\nIdiomas\n✅\n✅ (barras)\n\n\nExperiencia\n✅\n✅ (timeline)\n\n\nIntereses con iconos\n✅\n✅ (emojis)\n\n\nReferencias\n✅\n✅\n\n\nPLUS: Interactivo\n❌\n✅\n\n\nPLUS: Fácil editar\n❌\n✅ (YAML)\n\n\nPLUS: Export PDF\n❌\n✅\n\n\nPLUS: Online gratis\n❌\n✅ (GitHub Pages)"
+  },
+  {
+    "objectID": "PROYECTO-RESUMEN.html#próximos-pasos-opcionales",
+    "href": "PROYECTO-RESUMEN.html#próximos-pasos-opcionales",
+    "title": "📦 RESUMEN DEL PROYECTO - CV CARLOS FALLA",
+    "section": "",
+    "text": "Después de ver tu CV básico, podemos agregar:\n\n\n\n✨ Tooltips al hacer hover en skills\n✨ Animaciones suaves\n✨ Click para expandir experiencias\n\n\n\n\n\n📊 Gráfico de skills con Highcharter\n🗺️ Mapa interactivo de países donde trabajaste\n📈 Timeline interactivo\n\n\n\n\n\n🔍 Buscador de experiencias\n🌐 Versión en inglés (cambio de idioma)\n📱 PWA (app instalable)"
+  },
+  {
+    "objectID": "PROYECTO-RESUMEN.html#ventajas-sobre-shiny",
+    "href": "PROYECTO-RESUMEN.html#ventajas-sobre-shiny",
+    "title": "📦 RESUMEN DEL PROYECTO - CV CARLOS FALLA",
+    "section": "",
+    "text": "✅ Más simple de mantener (solo YAML) ✅ Hosting gratis (GitHub Pages) ✅ PDF perfecto sin complicaciones ✅ Más rápido de cargar ✅ No requiere servidor ✅ Versionable con Git"
+  },
+  {
+    "objectID": "PROYECTO-RESUMEN.html#recordatorios-importantes",
+    "href": "PROYECTO-RESUMEN.html#recordatorios-importantes",
+    "title": "📦 RESUMEN DEL PROYECTO - CV CARLOS FALLA",
+    "section": "",
+    "text": "TODO se edita en cv-data.yml\n\nNunca toques index.qmd para cambios de datos\n\nPara ver cambios\n\nGuarda cv-data.yml\nRender automático si usas quarto preview\n\nPara publicar\n\nGitHub Pages es GRATIS\nSolo necesitas subir a GitHub\n\nPara PDF\n\nPuedes necesitar TinyTeX o Chrome\nSe instala fácil: quarto::quarto_install_tinytex()"
+  },
+  {
+    "objectID": "PROYECTO-RESUMEN.html#recursos",
+    "href": "PROYECTO-RESUMEN.html#recursos",
+    "title": "📦 RESUMEN DEL PROYECTO - CV CARLOS FALLA",
+    "section": "",
+    "text": "Documentación Quarto: https://quarto.org/docs/guide/\nTutoriales: https://quarto.org/docs/get-started/\nGalería de ejemplos: https://quarto.org/docs/gallery/\nGitHub Pages: https://pages.github.com/"
+  },
+  {
+    "objectID": "PROYECTO-RESUMEN.html#soporte",
+    "href": "PROYECTO-RESUMEN.html#soporte",
+    "title": "📦 RESUMEN DEL PROYECTO - CV CARLOS FALLA",
+    "section": "",
+    "text": "Si algo no funciona: 1. Lee INICIO-RAPIDO.md 2. Revisa README.md 3. Pregúntame de nuevo 😊"
+  },
+  {
+    "objectID": "PROYECTO-RESUMEN.html#felicidades",
+    "href": "PROYECTO-RESUMEN.html#felicidades",
+    "title": "📦 RESUMEN DEL PROYECTO - CV CARLOS FALLA",
+    "section": "",
+    "text": "Tienes un CV profesional, moderno y fácil de mantener.\nSiguiente acción recomendada: 1. Abre cv-carlos.Rproj 2. Click en “Render” 3. ¡Ve tu CV en acción!\n¿Listo para mejorarlo? Dime qué te gustaría agregar: - ¿Gráficos interactivos? - ¿Mapa de países? - ¿Timeline animado? - ¿Otra cosa?\n¡Estoy aquí para ayudarte! 🚀"
+  },
+  {
+    "objectID": "index.html#perfil",
+    "href": "index.html#perfil",
+    "title": "Carlos Andrés Falla Gaitán",
+    "section": " Perfil",
+    "text": "Perfil\n\nEstadístico con Máster en Big Data y especialización en Economía del Riesgo, con experiencia profesional en analítica avanzada, BI e IA. Trayectoria comprobada liderando proyectos de transformación digital en varios países de Latinoamérica para sectores estratégicos como salud, telecomunicaciones y seguros. Experto en arquitectura de datos, machine learning y visualización estratégica de datos.\nCon 28 años de experiencia laboral y 18 años de experiencia profesional; padre de familia con 46 años de edad."
+  },
+  {
+    "objectID": "index.html#educación",
+    "href": "index.html#educación",
+    "title": "Carlos Andrés Falla Gaitán",
+    "section": " Educación",
+    "text": "Educación\n\n\nMaster en Big Data y Data Science\n\n\nUniversidad Internacional de Valencia\n\n\nOctubre de 2020\n\n\n\n\nEspecialista en Economía del Riesgo y la Información\n\n\nUniversidad de los Andes\n\n\nMarzo de 2010\n\n\n\n\nEstadístico\n\n\nUniversidad Nacional de Colombia\n\n\nMarzo de 2008"
+  },
+  {
+    "objectID": "index.html#certificaciones",
+    "href": "index.html#certificaciones",
+    "title": "Carlos Andrés Falla Gaitán",
+    "section": " Certificaciones",
+    "text": "Certificaciones\n\n\n\n11\n\n\nFormación\n\n\n\n\n8\n\n\nSoftware\n\n\n\n\n4\n\n\nEventos"
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Carlos Andrés Falla Gaitán",
+    "section": " Skills",
+    "text": "Skills\n\n Arquitectura de datos \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Modelos relacionales y NoSQL \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n ETL y procesamiento de datos \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Minería de datos (CRISP-DM) \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Analítica Predictiva \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Visualización de datos \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Diseño de Dashboards \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Machine Learning \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Inteligencia Artificial"
+  },
+  {
+    "objectID": "index.html#software",
+    "href": "index.html#software",
+    "title": "Carlos Andrés Falla Gaitán",
+    "section": " Software",
+    "text": "Software\n\n Analytics - R \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n BI-Alteryx \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Visualización-QlikView \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Visualización-QlikSense \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Visualización-Tableau \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Analytics - Python \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n ETL-SQL \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Analytics-SPSS Statistics \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n BI-Modeler \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Cloud-Suite Azure \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n BI-Tableau Prep \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Visualización-Power BI \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n ETL-MongoDB \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n BI-Knime \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n BI-Pentaho"
+  },
+  {
+    "objectID": "index.html#idiomas",
+    "href": "index.html#idiomas",
+    "title": "Carlos Andrés Falla Gaitán",
+    "section": " Idiomas",
+    "text": "Idiomas\n\n\nInglés\n\n\n\n\n\n\n\n\n\nPortugués"
+  },
+  {
+    "objectID": "index.html#intereses-y-hobbies",
+    "href": "index.html#intereses-y-hobbies",
+    "title": "Carlos Andrés Falla Gaitán",
+    "section": " Intereses y Hobbies",
+    "text": "Intereses y Hobbies\n\n\n\n🙏\n\n\nDios\n\n\n\n\n👨‍👩‍👧‍👦\n\n\nFamilia\n\n\n\n\n🎵\n\n\nMúsica\n\n\n\n\n📚\n\n\nLeer\n\n\n\n\n🚴\n\n\nDeporte\n\n\n\n\n✈️\n\n\nViajar\n\n\n\n\n💻\n\n\nProgramar"
+  },
+  {
+    "objectID": "index.html#experiencia-profesional",
+    "href": "index.html#experiencia-profesional",
+    "title": "Carlos Andrés Falla Gaitán",
+    "section": " Experiencia Profesional",
+    "text": "Experiencia Profesional\n\n\nMar 2025 - A la fecha\n\n\nCientífico de datos AI\n\n\nKnowledge Application SAS\n\n\n\n\nOct 2022 - Mar 2025\n\n\nConsultor Internacional en Analítica\n\n\nOrganización Panamericana de la Salud (OPS)\n\n\n\n\nMar 2020 - Sep 2022\n\n\nConsultor Senior en Analítica y Procesos\n\n\nQuality Customer Service SAS\n\n\n\n\nEne 2020 - Mar 2020\n\n\nGerente de Datos\n\n\nYouNeed SAS\n\n\n\n\nAbr 2014 - Ene 2020\n\n\nConsultor Técnico Senior en Inteligencia de Negocios\n\n\nConexia SAS\n\n\n\n\nNov 2012 - Abr 2014\n\n\nDirector de Estadística y Pronóstico\n\n\nAmericas Business Process Services\n\n\n\n\nSep 2009 - Nov 2012\n\n\nConsultor Estadístico\n\n\nSistemas y Computadores S.A\n\n\n\n\nNov 2004 - Sep 2009\n\n\nEstadístico\n\n\nCSJ - Unidad de Desarrollo y Análisis Estadístico\n\n\n\n\nJun 2003 - Nov 2004\n\n\nEstadístico y Coordinador de proyectos\n\n\nProcuraduría General de la Nación\n\n\n\n\nDic 2002 - Jun 2003\n\n\nEstadístico\n\n\nSoluciones en Comunicación y Software (SC&S)\n\n\n\n\nJul 2002 - Nov 2002\n\n\nEstadístico y Coordinador Técnico de proyectos\n\n\nCooperativa del Territorio Colombiano COOTECOL\n\n\n\n\nEne 2001 - Jun 2002\n\n\nProgramador de bases de datos relacionasles\n\n\nGrupo Ciencia Tecnologia y Sociedad UNAL"
+  },
+  {
+    "objectID": "index.html#referencias",
+    "href": "index.html#referencias",
+    "title": "Carlos Andrés Falla Gaitán",
+    "section": " Referencias",
+    "text": "Referencias\n\n\nEdward Lemus\n\n\nCCO QICS SAS\n\n\nedward.lemus@qcs.com.co | +57 318 220 0678\n\n\n\n\nLuis Navas\n\n\nCEO Conexia SAS\n\n\nluis.navas@conexia.com | +54 911 5080 6770\n\n\n\n\nGloria Morgan\n\n\nEx-Vice Pvt Positiva de Seguros\n\n\ndragmorgan@yahoo.com | +57 317 383 1192"
+  },
+  {
+    "objectID": "INICIO-RAPIDO.html",
+    "href": "INICIO-RAPIDO.html",
+    "title": "🚀 INICIO RÁPIDO - 5 MINUTOS",
+    "section": "",
+    "text": "Ya tienes la carpeta cv-carlos descargada.\n\n\n\n\nHaz doble click en el archivo cv-carlos.Rproj\nEsto abrirá RStudio con el proyecto cargado\n\n\n\n\nEn la consola de R en RStudio, ejecuta:\n# Instalar paquetes necesarios\ninstall.packages(c(\"yaml\", \"htmltools\"))\n\n\n\nOpción A - Desde RStudio (RECOMENDADO):\n\nAbre el archivo index.qmd en RStudio\nBusca el botón “Render” en la parte superior del editor (o presiona Ctrl+Shift+K)\nTu CV se abrirá automáticamente en el navegador\n\nOpción B - Desde la Terminal de RStudio:\nEn la terminal (pestaña “Terminal” en RStudio), ejecuta:\nquarto preview\nOpción C - Usando el script (Windows):\nHaz doble click en inicio-rapido.bat y selecciona opción 1.\n\n\n\nTODO se edita en el archivo cv-data.yml\n\nAbre cv-data.yml en RStudio\nEdita cualquier sección (nombre, experiencia, skills, etc.)\nGuarda el archivo (Ctrl+S)\nSi tienes el preview activo, ¡verás los cambios inmediatamente!\n\n\n\n# Cambiar tu email\npersonal:\n  email: \"tu-nuevo-email@gmail.com\"\n\n# Agregar un nuevo skill\nskills:\n  - \"Tu nuevo skill aquí\"\n  - \"Blockchain\"\n  - \"Cloud Computing\"\n\n# Agregar nueva experiencia\nexperiencia:\n  - cargo: \"Mi Nuevo Cargo\"\n    empresa: \"Mi Nueva Empresa\"\n    fecha: \"Ene 2026 - Actualidad\"\n    color: \"#1976D2\"\n\n\n\n\n\nColoca tu foto en la carpeta images/\nRenómbrala como carlos-profile.jpg (o actualiza el nombre en cv-data.yml)\n\n\n\n\nDesde RStudio:\n\nVe al menú: File → Render\nSelecciona formato: PDF\n\nDesde la Terminal:\nquarto render --to pdf\nNota: Para PDF necesitas tener instalado: - Chrome/Chromium (más fácil) O - LaTeX/TinyTeX\nSi no tienes ninguno, instala Chrome o ejecuta en R:\nquarto::quarto_install_tinytex()\n\n\n\n\n\n\nCrea un repo en GitHub\n\nVe a github.com\nClick en “New repository”\nNombre: cv-carlos o tu-usuario.github.io\n\nSube los archivos\n\nUsa GitHub Desktop\nArrastra la carpeta cv-carlos\nCommit y Push\n\nActiva GitHub Pages\n\nEn GitHub, ve a Settings → Pages\nSource: Branch main, carpeta /docs\nSave\n\n\n¡Listo! Tu CV estará en: https://tu-usuario.github.io/cv-carlos/\n\n\n\ncd cv-carlos\ngit init\ngit add .\ngit commit -m \"Mi CV inicial\"\ngit branch -M main\ngit remote add origin https://github.com/TU-USUARIO/cv-carlos.git\ngit push -u origin main\nLuego activa Pages como arriba.\n\n\n\n\n\n\nEdita custom.scss:\n$primary: #YOUR_COLOR;    // Color principal (ahora naranja #FF9800)\n$secondary: #YOUR_COLOR;  // Color secundario (ahora cyan #00BCD4)\n\n\n\nEdita index.qmd y agrega HTML/Markdown donde quieras.\n\n\n\n\n\nPreview en vivo: quarto preview actualiza automáticamente al guardar\nSolo datos: Nunca toques index.qmd si solo cambias info personal\nVersionado: Usa Git para hacer backup de tu CV\nMúltiples versiones: Copia cv-data.yml → cv-data-ingles.yml, etc.\n\n\n\n\nError: “yaml package not found”\ninstall.packages(\"yaml\")\nError: “quarto not found” - Asegúrate de tener Quarto instalado: https://quarto.org/\nLa foto no se ve - Verifica que la ruta sea correcta en cv-data.yml - La foto debe estar en la carpeta images/\nEl PDF no se genera - Instala TinyTeX: quarto::quarto_install_tinytex() - O instala Chrome/Chromium\n\n\n\n¿Ya viste tu CV?\n\nAbre cv-carlos.Rproj\nClick en “Render” en RStudio\n¡Disfruta tu nuevo CV! 🎉\n\n¿Quieres mejorar el diseño?\n\nPídeme que agreguemos gráficos interactivos\nPídeme que agreguemos un mapa de países\nPídeme que agreguemos animaciones\n\n\n¡Tu CV profesional está a un click de distancia!\nCualquier duda, vuelve a preguntar. 😊"
+  },
+  {
+    "objectID": "INICIO-RAPIDO.html#paso-1-descargar-el-proyecto",
+    "href": "INICIO-RAPIDO.html#paso-1-descargar-el-proyecto",
+    "title": "🚀 INICIO RÁPIDO - 5 MINUTOS",
+    "section": "",
+    "text": "Ya tienes la carpeta cv-carlos descargada."
+  },
+  {
+    "objectID": "INICIO-RAPIDO.html#paso-2-abrir-en-rstudio",
+    "href": "INICIO-RAPIDO.html#paso-2-abrir-en-rstudio",
+    "title": "🚀 INICIO RÁPIDO - 5 MINUTOS",
+    "section": "",
+    "text": "Haz doble click en el archivo cv-carlos.Rproj\nEsto abrirá RStudio con el proyecto cargado"
+  },
+  {
+    "objectID": "INICIO-RAPIDO.html#paso-3-instalar-dependencias-de-r-solo-la-primera-vez",
+    "href": "INICIO-RAPIDO.html#paso-3-instalar-dependencias-de-r-solo-la-primera-vez",
+    "title": "🚀 INICIO RÁPIDO - 5 MINUTOS",
+    "section": "",
+    "text": "En la consola de R en RStudio, ejecuta:\n# Instalar paquetes necesarios\ninstall.packages(c(\"yaml\", \"htmltools\"))"
+  },
+  {
+    "objectID": "INICIO-RAPIDO.html#paso-4-ver-tu-cv-en-el-navegador",
+    "href": "INICIO-RAPIDO.html#paso-4-ver-tu-cv-en-el-navegador",
+    "title": "🚀 INICIO RÁPIDO - 5 MINUTOS",
+    "section": "",
+    "text": "Opción A - Desde RStudio (RECOMENDADO):\n\nAbre el archivo index.qmd en RStudio\nBusca el botón “Render” en la parte superior del editor (o presiona Ctrl+Shift+K)\nTu CV se abrirá automáticamente en el navegador\n\nOpción B - Desde la Terminal de RStudio:\nEn la terminal (pestaña “Terminal” en RStudio), ejecuta:\nquarto preview\nOpción C - Usando el script (Windows):\nHaz doble click en inicio-rapido.bat y selecciona opción 1."
+  },
+  {
+    "objectID": "INICIO-RAPIDO.html#paso-5-editar-tu-información",
+    "href": "INICIO-RAPIDO.html#paso-5-editar-tu-información",
+    "title": "🚀 INICIO RÁPIDO - 5 MINUTOS",
+    "section": "",
+    "text": "TODO se edita en el archivo cv-data.yml\n\nAbre cv-data.yml en RStudio\nEdita cualquier sección (nombre, experiencia, skills, etc.)\nGuarda el archivo (Ctrl+S)\nSi tienes el preview activo, ¡verás los cambios inmediatamente!\n\n\n\n# Cambiar tu email\npersonal:\n  email: \"tu-nuevo-email@gmail.com\"\n\n# Agregar un nuevo skill\nskills:\n  - \"Tu nuevo skill aquí\"\n  - \"Blockchain\"\n  - \"Cloud Computing\"\n\n# Agregar nueva experiencia\nexperiencia:\n  - cargo: \"Mi Nuevo Cargo\"\n    empresa: \"Mi Nueva Empresa\"\n    fecha: \"Ene 2026 - Actualidad\"\n    color: \"#1976D2\""
+  },
+  {
+    "objectID": "INICIO-RAPIDO.html#paso-6-cambiar-tu-foto-de-perfil",
+    "href": "INICIO-RAPIDO.html#paso-6-cambiar-tu-foto-de-perfil",
+    "title": "🚀 INICIO RÁPIDO - 5 MINUTOS",
+    "section": "",
+    "text": "Coloca tu foto en la carpeta images/\nRenómbrala como carlos-profile.jpg (o actualiza el nombre en cv-data.yml)"
+  },
+  {
+    "objectID": "INICIO-RAPIDO.html#paso-7-generar-pdf",
+    "href": "INICIO-RAPIDO.html#paso-7-generar-pdf",
+    "title": "🚀 INICIO RÁPIDO - 5 MINUTOS",
+    "section": "",
+    "text": "Desde RStudio:\n\nVe al menú: File → Render\nSelecciona formato: PDF\n\nDesde la Terminal:\nquarto render --to pdf\nNota: Para PDF necesitas tener instalado: - Chrome/Chromium (más fácil) O - LaTeX/TinyTeX\nSi no tienes ninguno, instala Chrome o ejecuta en R:\nquarto::quarto_install_tinytex()"
+  },
+  {
+    "objectID": "INICIO-RAPIDO.html#paso-8-publicar-en-internet-github-pages",
+    "href": "INICIO-RAPIDO.html#paso-8-publicar-en-internet-github-pages",
+    "title": "🚀 INICIO RÁPIDO - 5 MINUTOS",
+    "section": "",
+    "text": "Crea un repo en GitHub\n\nVe a github.com\nClick en “New repository”\nNombre: cv-carlos o tu-usuario.github.io\n\nSube los archivos\n\nUsa GitHub Desktop\nArrastra la carpeta cv-carlos\nCommit y Push\n\nActiva GitHub Pages\n\nEn GitHub, ve a Settings → Pages\nSource: Branch main, carpeta /docs\nSave\n\n\n¡Listo! Tu CV estará en: https://tu-usuario.github.io/cv-carlos/\n\n\n\ncd cv-carlos\ngit init\ngit add .\ngit commit -m \"Mi CV inicial\"\ngit branch -M main\ngit remote add origin https://github.com/TU-USUARIO/cv-carlos.git\ngit push -u origin main\nLuego activa Pages como arriba."
+  },
+  {
+    "objectID": "INICIO-RAPIDO.html#personalización-rápida",
+    "href": "INICIO-RAPIDO.html#personalización-rápida",
+    "title": "🚀 INICIO RÁPIDO - 5 MINUTOS",
+    "section": "",
+    "text": "Edita custom.scss:\n$primary: #YOUR_COLOR;    // Color principal (ahora naranja #FF9800)\n$secondary: #YOUR_COLOR;  // Color secundario (ahora cyan #00BCD4)\n\n\n\nEdita index.qmd y agrega HTML/Markdown donde quieras."
+  },
+  {
+    "objectID": "INICIO-RAPIDO.html#tips-pro",
+    "href": "INICIO-RAPIDO.html#tips-pro",
+    "title": "🚀 INICIO RÁPIDO - 5 MINUTOS",
+    "section": "",
+    "text": "Preview en vivo: quarto preview actualiza automáticamente al guardar\nSolo datos: Nunca toques index.qmd si solo cambias info personal\nVersionado: Usa Git para hacer backup de tu CV\nMúltiples versiones: Copia cv-data.yml → cv-data-ingles.yml, etc."
+  },
+  {
+    "objectID": "INICIO-RAPIDO.html#problemas-comunes",
+    "href": "INICIO-RAPIDO.html#problemas-comunes",
+    "title": "🚀 INICIO RÁPIDO - 5 MINUTOS",
+    "section": "",
+    "text": "Error: “yaml package not found”\ninstall.packages(\"yaml\")\nError: “quarto not found” - Asegúrate de tener Quarto instalado: https://quarto.org/\nLa foto no se ve - Verifica que la ruta sea correcta en cv-data.yml - La foto debe estar en la carpeta images/\nEl PDF no se genera - Instala TinyTeX: quarto::quarto_install_tinytex() - O instala Chrome/Chromium"
+  },
+  {
+    "objectID": "INICIO-RAPIDO.html#siguiente-paso",
+    "href": "INICIO-RAPIDO.html#siguiente-paso",
+    "title": "🚀 INICIO RÁPIDO - 5 MINUTOS",
+    "section": "",
+    "text": "¿Ya viste tu CV?\n\nAbre cv-carlos.Rproj\nClick en “Render” en RStudio\n¡Disfruta tu nuevo CV! 🎉\n\n¿Quieres mejorar el diseño?\n\nPídeme que agreguemos gráficos interactivos\nPídeme que agreguemos un mapa de países\nPídeme que agreguemos animaciones\n\n\n¡Tu CV profesional está a un click de distancia!\nCualquier duda, vuelve a preguntar. 😊"
+  }
+]

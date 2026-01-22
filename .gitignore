@@ -1,0 +1,22 @@
+# Quarto
+/.quarto/
+/_site/
+/.luarc.json
+
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Output (opcional - descomenta si no quieres versionar el HTML)
+# docs/

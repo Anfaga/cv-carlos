@@ -1,0 +1,34 @@
+/*-- scss:defaults --*/
+
+// Colores principales
+$primary: #FF9800;
+$secondary: #00BCD4;
+$success: #4CAF50;
+$info: #1976D2;
+$warning: #FF9800;
+$danger: #F44336;
+
+// Tipografía
+$font-family-sans-serif: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$headings-font-weight: 700;
+
+// Colores de fondo
+$body-bg: #ffffff;
+$body-color: #333333;
+
+/*-- scss:rules --*/
+
+// Personalizaciones adicionales
+h1, h2, h3, h4, h5, h6 {
+  color: $primary;
+}
+
+a {
+  color: $secondary;
+  text-decoration: none;
+
+  &:hover {
+    color: darken($secondary, 10%);
+    text-decoration: underline;
+  }
+}
