@@ -278,44 +278,105 @@ html, body {
 }
 
 /* ================================
-   EXPERIENCIA (TIMELINE)
+   EXPERIENCIA (TIMELINE ZIGZAG)
    ================================ */
-.experience-item {
+.experience-timeline {
   position: relative;
-  padding-left: 30px;
-  margin-bottom: 30px;
-  border-left: 3px solid #e0e0e0;
+  padding: 20px 0;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
+/* Línea vertical central */
+.experience-timeline::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 3px;
+  height: 100%;
+  background: #e0e0e0;
+  top: 0;
+}
+
+.experience-item {
+  position: relative;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+/* Punto central */
 .experience-item::before {
   content: "";
   position: absolute;
-  left: -8px;
-  top: 5px;
-  width: 13px;
-  height: 13px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   background: #5F98D1;
-  border: 3px solid white;
-  box-shadow: 0 0 0 2px #5F98D1;
+  border: 4px solid white;
+  box-shadow: 0 0 0 3px #5F98D1;
+  z-index: 2;
 }
 
-.experience-title {
-  font-size: 1.2em;
-  font-weight: 700;
-  color: #5F98D1;
-  margin-bottom: 5px;
+/* Items IMPARES - fecha izquierda, contenido derecha */
+.experience-item:nth-child(odd) .experience-date {
+  text-align: right;
+  padding-right: 30px;
 }
 
-.experience-company {
-  color: #FF9800;
-  font-weight: 600;
-  margin-bottom: 3px;
+.experience-item:nth-child(odd) .experience-content {
+  text-align: left;
+  padding-left: 30px;
+}
+
+/* Items PARES - contenido izquierda, fecha derecha */
+.experience-item:nth-child(even) {
+  direction: rtl;
+}
+
+.experience-item:nth-child(even) .experience-date {
+  text-align: left;
+  padding-left: 30px;
+  direction: ltr;
+}
+
+.experience-item:nth-child(even) .experience-content {
+  text-align: right;
+  padding-right: 30px;
+  direction: ltr;
 }
 
 .experience-date {
   color: #666;
   font-size: 0.9em;
+  font-weight: 500;
+}
+
+.experience-content {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.experience-title {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #5F98D1;
+  margin-bottom: 5px;
+  line-height: 1.3;
+}
+
+.experience-company {
+  color: #FF9800;
+  font-weight: 600;
+  line-height: 1.3;
 }
 
 /* ================================
@@ -359,6 +420,7 @@ html, body {
   grid-template-columns: repeat(7, minmax(100px, 1fr));
   gap: 15px;
   margin-top: 20px;
+  margin-bottom: 60px;
 }
 
 .interest-item {
@@ -374,8 +436,8 @@ html, body {
 }
 
 .interest-icon {
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   font-size: 2em;
   margin-bottom: 8px;
 }
@@ -428,6 +490,23 @@ html, body {
   .hero-section {
     justify-content: center;
     margin-top: 1.2px;  /* ← AGREGAR: espacio para navbar */
+  }
+
+  .reference-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 20px;
+  }
+
+  .interest-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 60px;
   }
 }
 

@@ -158,16 +158,22 @@ for (idioma in cv_data$idiomas) {
 
 ## <img src="images/experience.png" class="section-icon"> Experiencia Profesional
 
+::: {.experience-timeline}
 ```{r, echo=FALSE, results='asis'}
 for (exp in cv_data$experiencia) {
   cat('<div class="experience-item">')
   cat('<div class="experience-date">', exp$fecha, '</div>')
+  cat('<div class="experience-content">')
   cat('<div class="experience-title">', exp$cargo, '</div>')
   cat('<div class="experience-company">', exp$empresa, '</div>')
   cat('</div>')
+  cat('</div>')
 }
 ```
+:::
 
+:::
+:::
 
 ## <img src="images/like.png" class="section-icon"> Referencias
 
@@ -198,8 +204,4 @@ for (interes in cv_data$intereses) {
 ```
 :::
 
-
-
-:::
-:::
 :::
