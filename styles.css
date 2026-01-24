@@ -389,9 +389,24 @@ html, body {
   .contact-info {
     justify-content: center;
   }
+
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    margin-top: 80px;
+  }
+
+  .hero-section {
+    justify-content: center;
+    margin-top: 1.2px;  /* ← AGREGAR: espacio para navbar */
+  }
 }
 
 @media (max-width: 768px) {
+    .two-column {
+    grid-template-columns: 1fr;
+  }
+
   .hero-text h1 {
     font-size: 2em;
   }
