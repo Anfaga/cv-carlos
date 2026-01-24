@@ -150,19 +150,6 @@ for (idioma in cv_data$idiomas) {
 }
 ```
 
-## <img src="images/interests.png" class="section-icon"> Intereses y Hobbies
-
-::: {.interest-grid}
-```{r, echo=FALSE, results='asis'}
-for (interes in cv_data$intereses) {
-  cat('<div class="interest-item">')
-  cat('<div class="interest-icon">', interes$icono, '</div>')
-  cat('<div>', interes$nombre, '</div>')
-  cat('</div>')
-}
-```
-:::
-
 :::
 
 ::: {.main-content}
@@ -179,6 +166,7 @@ for (exp in cv_data$experiencia) {
 }
 ```
 
+
 ## <img src="images/like.png" class="section-icon"> Referencias
 
 ```{r, echo=FALSE, results='asis'}
@@ -190,6 +178,22 @@ for (ref in cv_data$referencias) {
   cat('</div>')
 }
 ```
+
+
+## <img src="images/interests.png" class="section-icon"> Intereses y Hobbies
+
+::: {.interest-grid}
+```{r, echo=FALSE, results='asis'}
+for (interes in cv_data$intereses) {
+  cat('<div class="interest-item">')
+  cat('<div class="interest-icon">', interes$icono, '</div>')
+  cat('<div>', interes$nombre, '</div>')
+  cat('</div>')
+}
+```
+:::
+
+
 
 :::
 :::
