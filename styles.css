@@ -52,7 +52,7 @@ html, body {
   transform: scale(2);
   box-shadow: 0 8px 24px rgba(0,0,0,0.2);
   background-color: #F8F8F8;
-  margin-left: 100px;
+  /*margin-left: 100px;*/
   margin-top: 20px;
   margin-bottom: -20px;
 }
@@ -403,6 +403,11 @@ html, body {
   .profile-image {
     width: 100px;
     height: 100px;
+  }
+
+  .hero-section {
+    justify-content: center;
+    margin-top: 60px;  /* ← AGREGAR: espacio para navbar */
   }
 }
 
