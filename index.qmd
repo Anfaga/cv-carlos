@@ -118,6 +118,7 @@ for (skill in cv_data$skills) {
 }
 ```
 
+
 ## <img src="images/tools.png" class="section-icon"> Software
 
 ```{r, echo=FALSE, results='asis'}
@@ -136,6 +137,7 @@ for (sw in cv_data$software) {
   cat('</div>')
 }
 ```
+
 
 ## <img src="images/languages.png" class="section-icon"> Idiomas
 
@@ -169,15 +171,18 @@ for (exp in cv_data$experiencia) {
 
 ## <img src="images/like.png" class="section-icon"> Referencias
 
+::: {.reference-grid}
 ```{r, echo=FALSE, results='asis'}
 for (ref in cv_data$referencias) {
   cat('<div class="reference-item">')
   cat('<div class="reference-name">', ref$nombre, '</div>')
-  cat('<div>', ref$cargo, '</div>')
-  cat('<div style="color: #666;">', ref$email, ' | ', ref$telefono, '</div>')
+  cat('<div class="reference-roll">', ref$cargo, '</div>')
+  cat('<div class="reference-contact">', ref$email, '</div>')
+  cat('<div class="reference-contact">', ref$telefono, '</div>')
   cat('</div>')
 }
 ```
+:::
 
 
 ## <img src="images/interests.png" class="section-icon"> Intereses y Hobbies
@@ -187,7 +192,7 @@ for (ref in cv_data$referencias) {
 for (interes in cv_data$intereses) {
   cat('<div class="interest-item">')
   cat('<div class="interest-icon">', interes$icono, '</div>')
-  cat('<div>', interes$nombre, '</div>')
+  cat('<div class="interest-name">', interes$nombre, '</div>')
   cat('</div>')
 }
 ```

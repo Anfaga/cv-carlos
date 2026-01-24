@@ -144,6 +144,72 @@ html, body {
 }
 
 /* ================================
+   EDUCACIÓN
+   ================================ */
+
+.education-item {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 30px;
+  border-left: 3px solid #e0e0e0;
+}
+
+.education-item::before {
+  content: "";
+  position: absolute;
+  left: -8px;
+  top: 5px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #5F98D1;
+  border: 3px solid white;
+  box-shadow: 0 0 0 2px #5F98D1;
+}
+
+
+.education-title {
+  font-weight: 700;
+  color: #5F98D1;
+  font-size: 1.2em;
+}
+
+.education-institution {
+  color: #FF9800;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.education-date {
+  color: #666;
+  font-size: 0.9em;
+}
+
+/* ================================
+   CERTIFICACIONES (STATS)
+   ================================ */
+.cert-stats {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.cert-stat {
+  text-align: center;
+}
+
+.cert-number {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #5F98D1;
+}
+
+.cert-label {
+  color: #666;
+  font-size: 0.9em;
+}
+
+/* ================================
    SKILLS
    ================================ */
 .skill-item {
@@ -184,6 +250,31 @@ html, body {
 
 .dot.empty {
   background: #e0e0e0;
+}
+
+
+/* ================================
+   IDIOMAS (BARRAS DE PROGRESO)
+   ================================ */
+.lang-container {
+  margin: 15px 0;
+}
+
+.lang-label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.lang-bar-bg {
+  background: #e0e0e0;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.lang-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #00BCD4, #0097A7);
 }
 
 /* ================================
@@ -228,43 +319,34 @@ html, body {
 }
 
 /* ================================
-   EDUCACIÓN
+   REFERENCIAS
    ================================ */
+.reference-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  gap: 5px;
+  margin-top: 20px;
+}
 
-.education-item {
+.reference-item {
   position: relative;
-  padding-left: 30px;
-  margin-bottom: 30px;
-  border-left: 3px solid #e0e0e0;
+  /*padding-left: 30px;*/
+  margin-bottom: 10px;
 }
 
-.education-item::before {
-  content: "";
-  position: absolute;
-  left: -8px;
-  top: 5px;
-  width: 13px;
-  height: 13px;
-  border-radius: 50%;
-  background: #5F98D1;
-  border: 3px solid white;
-  box-shadow: 0 0 0 2px #5F98D1;
-}
-
-
-.education-title {
+.reference-name {
+  font-size: 1.2em;
   font-weight: 700;
   color: #5F98D1;
-  font-size: 1.2em;
 }
 
-.education-institution {
+.reference-roll {
   color: #FF9800;
   font-weight: 600;
   margin-bottom: 3px;
 }
 
-.education-date {
+.reference-contact {
   color: #666;
   font-size: 0.9em;
 }
@@ -274,7 +356,7 @@ html, body {
    ================================ */
 .interest-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-template-columns: repeat(7, minmax(100px, 1fr));
   gap: 15px;
   margin-top: 20px;
 }
@@ -283,77 +365,24 @@ html, body {
   text-align: center;
   padding: 15px;
   background: white;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*border-radius: 25px;*/
+  /*box-shadow: 0 2px 4px rgba(0,0,0,0.1);*/
 }
 
 .interest-icon {
+  width: 40px;
+  height: 40px;
   font-size: 2em;
   margin-bottom: 8px;
 }
 
-/* ================================
-   CERTIFICACIONES (STATS)
-   ================================ */
-.cert-stats {
-  display: flex;
-  justify-content: space-around;
-  margin: 20px 0;
-}
-
-.cert-stat {
-  text-align: center;
-}
-
-.cert-number {
-  font-size: 1.5em;
-  font-weight: 700;
-  color: #5F98D1;
-}
-
-.cert-label {
-  color: #666;
+.interest-name {
   font-size: 0.9em;
-}
-
-/* ================================
-   REFERENCIAS
-   ================================ */
-.reference-item {
-  background: white;
-  padding: 15px;
-  margin: 10px 0;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.reference-name {
-  font-weight: 700;
-  color: #1976D2;
-}
-
-/* ================================
-   IDIOMAS (BARRAS DE PROGRESO)
-   ================================ */
-.lang-container {
-  margin: 15px 0;
-}
-
-.lang-label {
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-
-.lang-bar-bg {
-  background: #e0e0e0;
-  height: 20px;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.lang-bar-fill {
-  height: 100%;
-  background: linear-gradient(90deg, #00BCD4, #0097A7);
+  text-align: center;
 }
 
 /* ================================

@@ -147,7 +147,7 @@ experiencia:
 
 referencias:
   - nombre: "Edward Lemus"
-    cargo: "CCO QICS SAS"
+    cargo: "CCO QCS SAS"
     email: "edward.lemus@qcs.com.co"
     telefono: "+57 318 220 0678"
   - nombre: "Luis Navas"
@@ -155,25 +155,26 @@ referencias:
     email: "luis.navas@conexia.com"
     telefono: "+54 911 5080 6770"
   - nombre: "Gloria Morgan"
-    cargo: "Ex-Vice Pvt Positiva de Seguros"
+    cargo: "Ex-Vicepresidente de Promoción y Prevención.
+    Positiva Compañía de Seguros S.A."
     email: "dragmorgan@yahoo.com"
     telefono: "+57 317 383 1192"
 
 intereses:
   - nombre: "Dios"
-    icono: "🙏"
+    icono: <img src="images/church.png" class="interest-icon">
   - nombre: "Familia"
-    icono: "👨‍👩‍👧‍👦"
+    icono: <img src="images/family.png" class="interest-icon">
   - nombre: "Música"
-    icono: "🎵"
+    icono: <img src="images/guitar.png" class="interest-icon">
   - nombre: "Leer"
-    icono: "📚"
+    icono: <img src="images/reading.png" class="interest-icon">
   - nombre: "Deporte"
-    icono: "🚴"
+    icono: <img src="images/ball.png" class="interest-icon">
   - nombre: "Viajar"
-    icono: "✈️"
+    icono: <img src="images/traveling.png" class="interest-icon">
   - nombre: "Programar"
-    icono: "💻"
+    icono: <img src="images/programming.png" class="interest-icon">
 
 paises_laborales:
   - "Colombia"
