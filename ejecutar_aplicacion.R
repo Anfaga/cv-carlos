@@ -35,18 +35,30 @@ for (flag in flags) {
 cat("\n")
 
 # ========================================
+# STEP 0.5: COPY index.html REDIRECT
+# ========================================
+cat("🔗 Copying index.html redirect...\n")
+if (file.exists("index.html")) {
+  file.copy("index.html", "docs/index.html", overwrite = TRUE)
+  cat("  ✓ index.html copied to docs/\n")
+} else {
+  cat("  ⚠️ Warning: index.html not found in root\n")
+}
+cat("\n")
+
+# ========================================
 # STEP 1: RENDER HTML FOR EACH LANGUAGE
 # ========================================
 for (lang in languages) {
   cat("📄 Rendering", toupper(lang), "version...\n")
-
+  
   # Render with language parameter
   quarto_render(
     input = "index.qmd",
     output_file = paste0("index-", lang, ".html"),
     execute_params = list(lang = lang)
   )
-
+  
   cat("✅", toupper(lang), "HTML rendered\n\n")
 }
 
@@ -62,7 +74,7 @@ cat("✅ JavaScript copied to docs/\n\n")
 # ========================================
 for (lang in languages) {
   cat("🎨 Generating", toupper(lang), "PDF...\n")
-
+  
   pagedown::chrome_print(
     input = paste0("docs/index-", lang, ".html"),
     output = paste0("docs/index-", lang, ".pdf"),
@@ -82,7 +94,7 @@ for (lang in languages) {
     timeout = 120,
     extra_args = c("--disable-gpu", "--no-sandbox")
   )
-
+  
   cat("✅", toupper(lang), "PDF generated\n\n")
 }
 
@@ -94,6 +106,7 @@ cat("========================================\n")
 cat("✅ BUILD COMPLETE\n")
 cat("========================================\n")
 cat("Generated files:\n")
+cat("  📄 docs/index.html (redirect)\n")
 for (lang in languages) {
   cat("  📄 docs/index-", lang, ".html\n", sep = "")
   cat("  📑 docs/index-", lang, ".pdf\n", sep = "")
@@ -102,9 +115,10 @@ cat("  📜 docs/navbar-i18n.js\n")
 cat("  🏁 docs/images/flags/ (", length(flags), " flags)\n", sep = "")
 cat("\n")
 cat("🌐 Available languages:", paste(toupper(languages), collapse = ", "), "\n")
-cat("📱 Navbar features:\n")
+cat("📱 Features:\n")
+cat("  ✓ index.html redirects to index-es.html\n")
 cat("  ✓ Language-specific flag icons (16x16px)\n")
 cat("  ✓ Dynamic navbar translation via JavaScript\n")
-cat("  ✓ Language-specific PDF button\n")
+cat("  ✓ Language-specific PDF buttons\n")
 cat("  ✓ Dropdown menu with other languages\n")
-cat("\n🚀 Ready to deploy!\n")
+cat("\n🚀 Ready to deploy to GitHub Pages!\n")
