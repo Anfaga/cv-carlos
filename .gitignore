@@ -20,3 +20,5 @@ Thumbs.db
 
 # Output (opcional - descomenta si no quieres versionar el HTML)
 # docs/
+
+**/*.quarto_ipynb

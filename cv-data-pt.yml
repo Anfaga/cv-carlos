@@ -1,0 +1,190 @@
+personal:
+  nombre: "Carlos A. Falla G."
+  titulo: "Consultor em Análise e Big Data"
+  email: "anfagadsc@gmail.com"
+  telefono: "+57 316 340 8893"
+  linkedin: "canfaga"
+  ubicacion: "Bogotá, COL"
+  foto: "images/carlos-profile.jpg"
+
+perfil:
+  resumen1: |
+    Estatístico com Mestrado em Big Data especializado em Economia do Risco e Informação,
+    com experiência profissional em análise avançada, BI e IA. Histórico comprovado liderando
+    projetos de transformação digital em vários países da América Latina para setores estratégicos
+    como saúde, telecomunicações e seguros. Especialista em arquitetura de dados, machine learning
+    e visualização estratégica de dados.
+  anos_experiencia_laboral: 28
+  anos_experiencia_profesional: 18
+  edad: 46
+
+educacion:
+  - titulo: "Mestrado em Big Data e Data Science"
+    institucion: "Universidade Internacional de Valência"
+    fecha: "Outubro de 2020"
+    icono: "🎓"
+  - titulo: "Especialista em Economia do Risco e Informação"
+    institucion: "Universidad de los Andes"
+    fecha: "Março de 2010"
+    icono: "🎓"
+  - titulo: "Estatístico"
+    institucion: "Universidad Nacional de Colombia"
+    fecha: "Março de 2008"
+    icono: "🎓"
+
+certificaciones:
+  formacion: 11
+  software: 8
+  eventos: 4
+
+skills:
+  - nombre: "Arquitetura de dados"
+    nivel: 5
+  - nombre: "Modelos relacionais e NoSQL"
+    nivel: 5
+  - nombre: "ETL e processamento de dados"
+    nivel: 5
+  - nombre: "Mineração de dados (CRISP-DM)"
+    nivel: 5
+  - nombre: "Análise Preditiva"
+    nivel: 5
+  - nombre: "Visualização de dados"
+    nivel: 5
+  - nombre: "Design de Dashboards"
+    nivel: 5
+  - nombre: "Consumo de APIs"
+    nivel: 5
+  - nombre: "Machine Learning"
+    nivel: 4
+  - nombre: "Inteligência Artificial"
+    nivel: 4
+
+software:
+  - nombre: "Python"
+    nivel: 5
+  - nombre: "R / RStudio"
+    nivel: 5
+  - nombre: "SQL (ETL/ELT)"
+    nivel: 5
+  - nombre: "MySQL / Postgres DB/"
+    nivel: 5
+  - nombre: "Alteryx"
+    nivel: 5
+  - nombre: "QlikSense / QlikView"
+    nivel: 5
+  - nombre: "Tableau / Tableau Prep"
+    nivel: 5
+  - nombre: "ETL-SQL"
+    nivel: 5
+  - nombre: "SPSS Statistics"
+    nivel: 5
+  - nombre: "Modeler"
+    nivel: 5
+  - nombre: "Cloud-Suite Azure"
+    nivel: 4
+  - nombre: "Visualización-Power BI"
+    nivel: 4
+  - nombre: "MongoDB"
+    nivel: 3
+  - nombre: "Knime"
+    nivel: 3
+  - nombre: "Pentaho"
+    nivel: 2
+
+idiomas:
+  - idioma: "Inglês"
+    nivel: 90
+  - idioma: "Português"
+    nivel: 10
+
+experiencia:
+  - cargo: "Cientista de Dados IA"
+    empresa: "Knowledge Application SAS"
+    fecha: "Mar 2025 - Fev 2026"
+    color: "#1976D2"
+  - cargo: "Consultor Internacional em Análise"
+    empresa: "Organização Pan-Americana da Saúde (OPAS)"
+    fecha: "Out 2022 - Dez 2025"
+    color: "#FF9800"
+  - cargo: "Consultor Sênior em Análise e Processos"
+    empresa: "Quality Customer Service SAS"
+    fecha: "Mar 2020 - Set 2022"
+    color: "#FF9800"
+  - cargo: "Gerente de Dados"
+    empresa: "YouNeed SAS"
+    fecha: "Jan 2020 - Mar 2020"
+    color: "#FF9800"
+  - cargo: "Consultor Técnico Sênior em Inteligência de Negócios"
+    empresa: "Conexia SAS"
+    fecha: "Abr 2014 - Jan 2020"
+    color: "#FF9800"
+  - cargo: "Diretor de Estatística e Previsão"
+    empresa: "Americas Business Process Services"
+    fecha: "Nov 2012 - Abr 2014"
+    color: "#1976D2"
+  - cargo: "Consultor Estatístico"
+    empresa: "Sistemas y Computadores S.A"
+    fecha: "Set 2009 - Nov 2012"
+    color: "#1976D2"
+  - cargo: "Estatístico"
+    empresa: "CSJ - Unidade de Desenvolvimento e Análise Estatística"
+    fecha: "Nov 2004 - Set 2009"
+    color: "#1976D2"
+  - cargo: "Estatístico e Coordenador de Projetos"
+    empresa: "Procuraduría General de la Nación"
+    fecha: "Jun 2003 - Nov 2004"
+    color: "#1976D2"
+  - cargo: "Estatístico"
+    empresa: "Soluciones en Comunicación y Software (SC&S)"
+    fecha: "Dez 2002 - Jun 2003"
+    color: "#1976D2"
+  - cargo: "Estatístico e Coordenador Técnico de Projetos"
+    empresa: "Cooperativa del Territorio Colombiano COOTECOL"
+    fecha: "Jul 2002 - Nov 2002"
+    color: "#1976D2"
+  - cargo: "Programador de Banco de Dados Relacional"
+    empresa: "Grupo Ciencia Tecnologia y Sociedad UNAL"
+    fecha: "Jan 2001 - Jun 2002"
+    color: "#4CAF50"
+
+referencias:
+  - nombre: "Edward Lemus"
+    cargo: "CCO QCS SAS"
+    email: "edward.lemus@qcs.com.co"
+    telefono: "+57 318 220 0678"
+  - nombre: "Luis Navas"
+    cargo: "CEO Conexia SAS"
+    email: "luis.navas@conexia.com"
+    telefono: "+54 911 5080 6770"
+  - nombre: "Gloria Morgan"
+    cargo: "Ex-Vice-Presidente de Promoção e Prevenção."
+    cargo1: "Positiva Compañía de Seguros S.A."
+    email: "dragmorgan@yahoo.com"
+    telefono: "+57 317 383 1192"
+
+intereses:
+  - nombre: "Deus"
+    icono: <img src="images/church.png" class="interest-icon">
+  - nombre: "Família"
+    icono: <img src="images/family.png" class="interest-icon">
+  - nombre: "Música"
+    icono: <img src="images/guitar.png" class="interest-icon">
+  - nombre: "Leitura"
+    icono: <img src="images/reading.png" class="interest-icon">
+  - nombre: "Esportes"
+    icono: <img src="images/ball.png" class="interest-icon">
+  - nombre: "Viajar"
+    icono: <img src="images/traveling.png" class="interest-icon">
+  - nombre: "Programação"
+    icono: <img src="images/programming.png" class="interest-icon">
+
+paises_laborales:
+  - "Colômbia"
+  - "México"
+  - "Guatemala"
+  - "Costa Rica"
+  - "Panamá"
+  - "República Dominicana"
+  - "Equador"
+  - "Peru"
+  - "Brasil"
