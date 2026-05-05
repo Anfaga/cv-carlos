@@ -9,14 +9,25 @@ personal:
 
 perfil:
   resumen1: |
-    Statistician with a Master's in Big Data specializing in Risk Economics and Information,
-    with professional experience in advanced analytics, BI, and AI. Proven track record leading
-    digital transformation projects across several Latin American countries for strategic sectors
-    such as healthcare, telecommunications, and insurance. Expert in data architecture, machine learning,
-    and strategic data visualization.
+    Statistician with a Master's in Big Data and a specialization in Risk Economics and Information,
+    with professional experience in advanced analytics, BI, and Artificial Intelligence. Proven track
+    record leading digital transformation projects across several Latin American countries for strategic
+    sectors such as healthcare, telecommunications, and insurance.
+
+    Expert in data architecture, data mining under CRISP-DM methodology, predictive, associative and
+    classification models, machine learning, and strategic data visualization. Extensive experience in
+    dashboard and KPI design with certified data visualization and statistical modeling tools.
+
+    Proficient in generative AI tools — ChatGPT, Claude, and Gemini — applied to data analysis,
+    workflow automation, research, information synthesis, and content generation.
+
+    Participant in the Global Management Immersion Experience (GMIX) program at Stanford Graduate
+    School of Business and project coordinator at MIT's G-Lab. Lecturer in Quantitative Analysis in
+    graduate programs at Politécnico Gran Colombiano and trained as a Data Science Citizen by
+    Colciencias–MINTIC.
   anos_experiencia_laboral: 28
   anos_experiencia_profesional: 18
-  edad: 46
+  edad: ""
 
 educacion:
   - titulo: "Master in Big Data and Data Science"
@@ -98,220 +109,200 @@ idiomas:
     nivel: 10
 
 experiencia:
-  - cargo: "AI Data Scientist"
-    empresa: "Knowledge Application SAS"
-    fecha: "Mar 2025 - Feb 2026"
+  - cargo: "AI Data Scientist - Consultant"
+    empresa: "YouNeed SAS"
+    fecha: "Mar 2025 - Present"
     color: "#1976D2"
     descripcion: |
-      Description of the company context and your central role in 1-2 sentences.
+      Responsible for data mining and analytics processes, coordinating projects
+      focused on generating added value for clients from their information.
     responsabilidades:
       - "Develop predictive models with Python and scikit-learn"
       - "Design ETL pipelines for real-time data processing"
       - "Present findings to executive teams and clients"
+      - "Automation of audit processes with AI assistance"
     logros:
-      - "Reduced processing time by 40% through query optimization"
-      - "Deployed 3 models into production with accuracy > 85%"
+      - "In progress ..."
+      - ""
     tecnologias:
+      - "Open AI"
+      - "Claude"
       - "Python"
-      - "scikit-learn"
-      - "Azure"
+      - "R"
+      - "Azure DevOps"
       - "SQL"
+      - "Shiny"
+      - "MongoDB"
+      - "Alteryx"
+      - "Postgres"
 
   - cargo: "International Analytics Consultant"
     empresa: "Pan American Health Organization (PAHO)"
     fecha: "Oct 2022 - Dec 2025"
     color: "#FF9800"
     descripcion: |
-      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+      In progress ...
     responsabilidades:
-      - "xxxx"
-      - "xxxx"
-      - "xxxx"
+      - "In progress ..."
     logros:
-      - "yyyy"
-      - "yyyy"
+      - "In progress ..."
     tecnologias:
-      - "aaaaaaaaaa"
-      - "bbbbbbbbbb"
-      - "cccccccccc"
+      - "R"
+      - "Python"
+      - "Shiny"
+      - "MongoDB"
+      - "SQL"
+      - "Postgres"
+      - "ArGis"
+      - "Alteryx"
 
   - cargo: "Senior Analytics and Process Consultant"
     empresa: "Quality Customer Service SAS"
-    fecha: "Mar 2020 - Sep 2022"
+    fecha: "Jan 2020 - Sep 2022"
     color: "#FF9800"
     descripcion: |
-      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+      Head of the analytics group and automated solutions development.
     responsabilidades:
-      - "xxxx"
-      - "xxxx"
-      - "xxxx"
+      - "Data analysis, modeling and visualization across client processes for effective and proactive decision-making."
     logros:
-      - "yyyy"
-      - "yyyy"
+      - ""
     tecnologias:
-      - "aaaaaaaaaa"
-      - "bbbbbbbbbb"
-      - "cccccccccc"
-
-  - cargo: "Data Manager"
-    empresa: "YouNeed SAS"
-    fecha: "Jan 2020 - Mar 2020"
-    color: "#FF9800"
-    descripcion: |
-      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
-    responsabilidades:
-      - "xxxx"
-      - "xxxx"
-      - "xxxx"
-    logros:
-      - "yyyy"
-      - "yyyy"
-    tecnologias:
-      - "aaaaaaaaaa"
-      - "bbbbbbbbbb"
-      - "cccccccccc"
+      - "R"
+      - "Alteryx"
+      - "Tableau"
+      - "Tableau Prep"
+      - "Power BI"
+      - "QlikSense"
 
   - cargo: "Senior Technical Consultant in Business Intelligence"
     empresa: "Conexia SAS"
     fecha: "Apr 2014 - Jan 2020"
     color: "#FF9800"
     descripcion: |
-      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+      Generating value for clients through the development of indicator systems for process evaluation and monitoring.
     responsabilidades:
-      - "xxxx"
-      - "xxxx"
-      - "xxxx"
+      - "Coordination of the business intelligence group, building monitoring dashboards under QlikView and Qlik Sense."
+      - "Director of research teams working annually with Stanford Graduate School of Business (GMIX) and MIT (G-Lab)."
     logros:
-      - "yyyy"
-      - "yyyy"
+      - "Led the company into the world of Analytics and the construction of a baseline indicator system."
+      - "Enhanced client process monitoring and control capabilities."
     tecnologias:
-      - "aaaaaaaaaa"
-      - "bbbbbbbbbb"
-      - "cccccccccc"
+      - "QlikSense"
+      - "QlikView"
 
   - cargo: "Director of Statistics and Forecasting"
     empresa: "Americas Business Process Services"
     fecha: "Nov 2012 - Apr 2014"
     color: "#1976D2"
     descripcion: |
-      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+      Responsible for forecasting, planning, scheduling and real-time management (RTM) of resources dedicated to client campaigns.
     responsabilidades:
-      - "xxxx"
-      - "xxxx"
-      - "xxxx"
+      - "Establish and enforce forecasting, planning, scheduling and RTM procedures."
+      - "Generate added value through data mining and analytics tools."
+      - "Determine future transaction volumes and average handling times using predictive statistical modeling."
+      - "Manage operational team time and resources through scheduling and forecasting."
     logros:
-      - "yyyy"
-      - "yyyy"
+      - "Timeliness and quality of reports."
+      - "Client satisfaction."
+      - "Achievement of forecast accuracy KPIs."
     tecnologias:
-      - "aaaaaaaaaa"
-      - "bbbbbbbbbb"
-      - "cccccccccc"
+      - "QlikSense"
+      - "Project"
+      - "R"
 
   - cargo: "Statistical Consultant"
     empresa: "Sistemas y Computadores S.A"
     fecha: "Sep 2009 - Nov 2012"
     color: "#1976D2"
     descripcion: |
-      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+      KPO services with high-level data analysis tasks based on statistical techniques, research and consulting; directly to client Vice-Presidencies and Management.
     responsabilidades:
-      - "xxxx"
-      - "xxxx"
-      - "xxxx"
+      - "Customer segmentation for commercial, preventive and financial strategy development."
+      - "Statistical design strategies aligned with business needs to generate added value."
+      - "Ongoing advisory to the company through analytical results for decision-making."
+      - "Development and tracking of indicators and rates for each area of work."
     logros:
-      - "yyyy"
-      - "yyyy"
+      - ""
     tecnologias:
-      - "aaaaaaaaaa"
-      - "bbbbbbbbbb"
-      - "cccccccccc"
+      - "SPSS"
+      - "Clementine (Modeler)"
 
   - cargo: "Statistician"
     empresa: "CSJ - Statistical Development and Analysis Unit"
     fecha: "Nov 2004 - Sep 2009"
     color: "#1976D2"
     descripcion: |
-      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+      Processing, querying and analysis of information related to the management of judicial processes reported by courts across the country.
     responsabilidades:
-      - "xxxx"
-      - "xxxx"
-      - "xxxx"
+      - "Processing and analysis of judicial process management data across the country."
+      - "Oversight of methodology and model development projects for judicial management."
+      - "Evaluation of judicial processes for sociodemographic characterization."
+      - "Development of sampling plans and procedural timing studies."
     logros:
-      - "yyyy"
-      - "yyyy"
+      - ""
     tecnologias:
-      - "aaaaaaaaaa"
-      - "bbbbbbbbbb"
-      - "cccccccccc"
+      - "Microsoft Access"
+      - "SQL"
+      - "SPSS"
+      - "Clementine (Modeler)"
 
   - cargo: "Statistician and Project Coordinator"
     empresa: "Procuraduría General de la Nación"
     fecha: "Jun 2003 - Nov 2004"
     color: "#1976D2"
     descripcion: |
-      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+      Analysis of management and performance information for staff of the Procuraduría General at the national level.
     responsabilidades:
-      - "xxxx"
-      - "xxxx"
-      - "xxxx"
+      - ""
     logros:
-      - "yyyy"
-      - "yyyy"
+      - ""
     tecnologias:
-      - "aaaaaaaaaa"
-      - "bbbbbbbbbb"
-      - "cccccccccc"
+      - "Microsoft Access"
+      - "Microsoft Excel"
+      - "SQL"
 
   - cargo: "Statistician"
     empresa: "Soluciones en Comunicación y Software (SC&S)"
     fecha: "Dec 2002 - Jun 2003"
     color: "#1976D2"
     descripcion: |
-      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+      Quality control of information reported to the Energy and Gas Regulation Commission (CREG) by generating and distributing companies; querying, filtering and statistical analysis of said information.
     responsabilidades:
-      - "xxxx"
-      - "xxxx"
-      - "xxxx"
+      - ""
     logros:
-      - "yyyy"
-      - "yyyy"
+      - ""
     tecnologias:
-      - "aaaaaaaaaa"
-      - "bbbbbbbbbb"
-      - "cccccccccc"
+      - "R"
+      - "Microsoft Excel"
 
   - cargo: "Statistician and Technical Project Coordinator"
     empresa: "Cooperativa del Territorio Colombiano COOTECOL"
     fecha: "Jul 2002 - Nov 2002"
     color: "#1976D2"
     descripcion: |
-      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+      Statistician and Technical Coordinator of the project "Strengthening the Informal Sector – Working Conditions in the Informal Automotive Mechanics Sector in Bogotá".
     responsabilidades:
-      - "xxxx"
-      - "xxxx"
-      - "xxxx"
+      - ""
     logros:
-      - "yyyy"
-      - "yyyy"
+      - "Diagnosis of the informal automotive mechanics sector in Bogotá with proposals for worker integration into the social security system, presented to the Ministry of Health."
     tecnologias:
-      - "aaaaaaaaaa"
-      - "bbbbbbbbbb"
-      - "cccccccccc"
+      - "Survey design"
+      - "R"
+      - "SPSS"
 
   - cargo: "Relational Database Programmer"
     empresa: "Grupo Ciencia Tecnologia y Sociedad UNAL"
     fecha: "Jan 2001 - Jun 2002"
     color: "#4CAF50"
     descripcion: |
-      Participated in the development of the tool that evaluated scientific and technological
-      journals at the national level, through the development of a statistical indicators module.
-      This evaluation instrument was called "Publindex 2001" and was developed in Microsoft Access.
+      Participation in the development of the tool that evaluated scientific and technological journals
+      at the national level, and in the project "Construction of the Information System of the
+      Universidad Nacional de Colombia".
     responsabilidades:
-      - "xxxx"
-      - "xxxx"
-      - "xxxx"
+      - "Development of the Publindex 2001 statistical indicators module in Microsoft Access."
+      - "Development of an information system for efficient querying of research projects, researchers and results at Universidad Nacional."
     logros:
-      - "yyyy"
-      - "yyyy"
+      - "Publindex 2001 successfully implemented as the official national scientific journal evaluation tool."
     tecnologias:
       - "Microsoft Access"
       - "Microsoft Excel"

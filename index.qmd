@@ -65,7 +65,7 @@ tr <- translations[[lang]]
 ::: {.perfil-texto}
 `r cv_data$perfil$resumen1`
 
-**`r tr$with` `r cv_data$perfil$anos_experiencia_laboral` `r tr$years_work`** `r tr$and` **`r cv_data$perfil$anos_experiencia_profesional` `r tr$years_prof`**; <br>`r tr$family_man` `r cv_data$perfil$edad` `r tr$years_old`.
+**`r tr$with` `r cv_data$perfil$anos_experiencia_laboral` `r tr$years_work`** `r tr$and` **`r cv_data$perfil$anos_experiencia_profesional` `r tr$years_prof`**.
 :::
 
 ::: {.two-column}

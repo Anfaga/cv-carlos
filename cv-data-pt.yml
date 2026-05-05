@@ -9,14 +9,27 @@ personal:
 
 perfil:
   resumen1: |
-    Estatístico com Mestrado em Big Data especializado em Economia do Risco e Informação,
-    com experiência profissional em análise avançada, BI e IA. Histórico comprovado liderando
-    projetos de transformação digital em vários países da América Latina para setores estratégicos
-    como saúde, telecomunicações e seguros. Especialista em arquitetura de dados, machine learning
-    e visualização estratégica de dados.
+    Estatístico com Mestrado em Big Data e especialização em Economia do Risco e Informação,
+    com experiência profissional em análise avançada, BI e Inteligência Artificial. Histórico
+    comprovado liderando projetos de transformação digital em vários países da América Latina
+    para setores estratégicos como saúde, telecomunicações e seguros.
+
+    Especialista em arquitetura de dados, mineração de dados sob metodologia CRISP-DM, modelos
+    preditivos, associativos e de classificação, machine learning e visualização estratégica de
+    dados. Ampla experiência em design de dashboards e KPIs com ferramentas certificadas de
+    visualização de dados e modelagem estatística.
+
+    Com domínio prático de ferramentas de IA generativa — ChatGPT, Claude e Gemini — aplicadas
+    a análise de dados, automação de fluxos de trabalho, pesquisa, síntese de informações e
+    geração de conteúdo.
+
+    Participante do programa Global Management Immersion Experience (GMIX) da Stanford Graduate
+    School of Business e coordenador de projeto no G-Lab do MIT. Docente de Análise Quantitativa
+    em pós-graduações do Politécnico Gran Colombiano e formado como Cidadão Cientista de Dados
+    pela Colciencias–MINTIC.
   anos_experiencia_laboral: 28
   anos_experiencia_profesional: 18
-  edad: 46
+  edad: ""
 
 educacion:
   - titulo: "Mestrado em Big Data e Data Science"
@@ -98,221 +111,199 @@ idiomas:
     nivel: 10
 
 experiencia:
-  - cargo: "Cientista de Dados IA"
-    empresa: "Knowledge Application SAS"
-    fecha: "Mar 2025 - Fev 2026"
+  - cargo: "Consultor - Cientista de Dados IA"
+    empresa: "YouNeed SAS"
+    fecha: "Mar 2025 - Atual"
     color: "#1976D2"
     descripcion: |
-      Descrição do contexto da empresa e seu papel central em 1-2 frases.
+      Responsável pelos processos de mineração de dados e análise, coordenando projetos voltados à geração de valor agregado para os clientes a partir de suas informações.
     responsabilidades:
       - "Desenvolver modelos preditivos com Python e scikit-learn"
       - "Projetar pipelines ETL para processamento de dados em tempo real"
       - "Apresentar descobertas a equipes executivas e clientes"
+      - "Automação de processos de auditoria com assistência de IA"
     logros:
-      - "Reduziu o tempo de processamento em 40% por meio de otimização de consultas"
-      - "Implementou 3 modelos em produção com precisão > 85%"
+      - "Em desenvolvimento ..."
+      - ""
     tecnologias:
+      - "Open AI"
+      - "Claude"
       - "Python"
-      - "scikit-learn"
-      - "Azure"
+      - "R"
+      - "Azure DevOps"
       - "SQL"
+      - "Shiny"
+      - "MongoDB"
+      - "Alteryx"
+      - "Postgres"
 
   - cargo: "Consultor Internacional em Análise"
     empresa: "Organização Pan-Americana da Saúde (OPAS)"
     fecha: "Out 2022 - Dez 2025"
     color: "#FF9800"
     descripcion: |
-      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+      Em desenvolvimento ...
     responsabilidades:
-      - "xxxx"
-      - "xxxx"
-      - "xxxx"
+      - "Em desenvolvimento ..."
     logros:
-      - "yyyy"
-      - "yyyy"
+      - "Em desenvolvimento ..."
     tecnologias:
-      - "aaaaaaaaaa"
-      - "bbbbbbbbbb"
-      - "cccccccccc"
+      - "R"
+      - "Python"
+      - "Shiny"
+      - "MongoDB"
+      - "SQL"
+      - "Postgres"
+      - "ArGis"
+      - "Alteryx"
 
   - cargo: "Consultor Sênior em Análise e Processos"
     empresa: "Quality Customer Service SAS"
-    fecha: "Mar 2020 - Set 2022"
+    fecha: "Jan 2020 - Set 2022"
     color: "#FF9800"
     descripcion: |
-      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+      Responsável pelo grupo de análise e desenvolvimento de soluções automatizadas.
     responsabilidades:
-      - "xxxx"
-      - "xxxx"
-      - "xxxx"
+      - "Análise, modelagem e visualização de dados nos processos dos clientes para tomada de decisões eficazes e proativas."
     logros:
-      - "yyyy"
-      - "yyyy"
+      - ""
     tecnologias:
-      - "aaaaaaaaaa"
-      - "bbbbbbbbbb"
-      - "cccccccccc"
-
-  - cargo: "Gerente de Dados"
-    empresa: "YouNeed SAS"
-    fecha: "Jan 2020 - Mar 2020"
-    color: "#FF9800"
-    descripcion: |
-      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
-    responsabilidades:
-      - "xxxx"
-      - "xxxx"
-      - "xxxx"
-    logros:
-      - "yyyy"
-      - "yyyy"
-    tecnologias:
-      - "aaaaaaaaaa"
-      - "bbbbbbbbbb"
-      - "cccccccccc"
+      - "R"
+      - "Alteryx"
+      - "Tableau"
+      - "Tableau Prep"
+      - "Power BI"
+      - "QlikSense"
 
   - cargo: "Consultor Técnico Sênior em Inteligência de Negócios"
     empresa: "Conexia SAS"
     fecha: "Abr 2014 - Jan 2020"
     color: "#FF9800"
     descripcion: |
-      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+      Geração de valor para os clientes por meio da construção de Sistemas de Indicadores para avaliação e acompanhamento de processos.
     responsabilidades:
-      - "xxxx"
-      - "xxxx"
-      - "xxxx"
+      - "Coordenação do grupo de inteligência de negócios, criando dashboards de monitoramento sob as plataformas QlikView e Qlik Sense."
+      - "Diretor das equipes de pesquisa com a Stanford Graduate School of Business (GMIX) e o MIT (G-Lab)."
     logros:
-      - "yyyy"
-      - "yyyy"
+      - "Inserção da empresa no mundo da Análise e construção de uma linha de base de indicadores."
+      - "Aprimoramento do monitoramento e controle da gestão dos processos dos clientes."
     tecnologias:
-      - "aaaaaaaaaa"
-      - "bbbbbbbbbb"
-      - "cccccccccc"
+      - "QlikSense"
+      - "QlikView"
 
   - cargo: "Diretor de Estatística e Previsão"
     empresa: "Americas Business Process Services"
     fecha: "Nov 2012 - Abr 2014"
     color: "#1976D2"
     descripcion: |
-      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+      Responsável pela previsão, planejamento, programação e gestão em tempo real (GTR) dos recursos dedicados às campanhas dos clientes.
     responsabilidades:
-      - "xxxx"
-      - "xxxx"
-      - "xxxx"
+      - "Estabelecer e garantir o cumprimento dos procedimentos de previsão, planejamento, programação e GTR."
+      - "Gerar valor agregado às análises de informações com ferramentas de mineração de dados."
+      - "Determinar o volume futuro de transações e tempos médios com técnicas de modelagem preditiva."
+      - "Administrar o tempo e os recursos das equipes operacionais por meio de programação e previsão."
     logros:
-      - "yyyy"
-      - "yyyy"
+      - "Pontualidade e qualidade nos relatórios."
+      - "Satisfação do cliente."
+      - "Cumprimento dos indicadores de precisão nas previsões."
     tecnologias:
-      - "aaaaaaaaaa"
-      - "bbbbbbbbbb"
-      - "cccccccccc"
+      - "QlikSense"
+      - "Project"
+      - "R"
 
   - cargo: "Consultor Estatístico"
     empresa: "Sistemas y Computadores S.A"
     fecha: "Set 2009 - Nov 2012"
     color: "#1976D2"
     descripcion: |
-      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+      Serviços KPO com tarefas de alto nível em análise de informações baseadas em técnicas estatísticas, pesquisa e consultoria; diretamente para Vice-Presidências e Gerências dos clientes.
     responsabilidades:
-      - "xxxx"
-      - "xxxx"
-      - "xxxx"
+      - "Segmentação de clientes para estruturação de estratégias comerciais, preventivas e financeiras."
+      - "Desenvolvimento de estratégias e designs estatísticos adequados ao negócio para gerar valor agregado."
+      - "Assessoria permanente à empresa por meio de resultados analíticos para tomada de decisões."
+      - "Revisão, criação e acompanhamento de indicadores e taxas nas áreas de trabalho."
     logros:
-      - "yyyy"
-      - "yyyy"
+      - ""
     tecnologias:
-      - "aaaaaaaaaa"
-      - "bbbbbbbbbb"
-      - "cccccccccc"
+      - "SPSS"
+      - "Clementine (Modeler)"
 
   - cargo: "Estatístico"
     empresa: "CSJ - Unidade de Desenvolvimento e Análise Estatística"
     fecha: "Nov 2004 - Set 2009"
     color: "#1976D2"
     descripcion: |
-      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+      Processamento, consulta e análise de informações relativas à gestão dos processos judiciais reportados pelos tribunais do país.
     responsabilidades:
-      - "xxxx"
-      - "xxxx"
-      - "xxxx"
+      - "Processamento e análise de informações de gestão de processos judiciais do país."
+      - "Supervisão de projetos de desenvolvimento de metodologias e modelos para a gestão judicial."
+      - "Avaliação de processos judiciais para caracterização sociodemográfica."
+      - "Desenvolvimento de planos de amostragem e estudo de prazos processuais."
     logros:
-      - "yyyy"
-      - "yyyy"
+      - ""
     tecnologias:
-      - "aaaaaaaaaa"
-      - "bbbbbbbbbb"
-      - "cccccccccc"
+      - "Microsoft Access"
+      - "SQL"
+      - "SPSS"
+      - "Clementine (Modeler)"
 
   - cargo: "Estatístico e Coordenador de Projetos"
     empresa: "Procuraduría General de la Nación"
     fecha: "Jun 2003 - Nov 2004"
     color: "#1976D2"
     descripcion: |
-      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+      Análise de informações de gestão e desempenho dos servidores da Procuradoria Geral em nível nacional.
     responsabilidades:
-      - "xxxx"
-      - "xxxx"
-      - "xxxx"
+      - ""
     logros:
-      - "yyyy"
-      - "yyyy"
+      - ""
     tecnologias:
-      - "aaaaaaaaaa"
-      - "bbbbbbbbbb"
-      - "cccccccccc"
+      - "Microsoft Access"
+      - "Microsoft Excel"
+      - "SQL"
 
   - cargo: "Estatístico"
     empresa: "Soluciones en Comunicación y Software (SC&S)"
     fecha: "Dez 2002 - Jun 2003"
     color: "#1976D2"
     descripcion: |
-      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+      Controle de qualidade das informações reportadas à Comissão de Regulação de Energia e Gás (CREG) pelas empresas geradoras e distribuidoras; consulta, filtragem e análise estatística dessas informações.
     responsabilidades:
-      - "xxxx"
-      - "xxxx"
-      - "xxxx"
+      - ""
     logros:
-      - "yyyy"
-      - "yyyy"
+      - ""
     tecnologias:
-      - "aaaaaaaaaa"
-      - "bbbbbbbbbb"
-      - "cccccccccc"
+      - "R"
+      - "Microsoft Excel"
 
   - cargo: "Estatístico e Coordenador Técnico de Projetos"
     empresa: "Cooperativa del Territorio Colombiano COOTECOL"
     fecha: "Jul 2002 - Nov 2002"
     color: "#1976D2"
     descripcion: |
-      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+      Estatístico e Coordenador Técnico do Projeto "Fortalecimento do Setor Informal – Condições de Trabalho no Setor Informal da Mecânica Automotiva em Bogotá".
     responsabilidades:
-      - "xxxx"
-      - "xxxx"
-      - "xxxx"
+      - ""
     logros:
-      - "yyyy"
-      - "yyyy"
+      - "Diagnóstico do setor informal da mecânica automotiva em Bogotá com propostas de integração dos trabalhadores ao sistema de seguridade social apresentadas ao Ministério da Saúde."
     tecnologias:
-      - "aaaaaaaaaa"
-      - "bbbbbbbbbb"
-      - "cccccccccc"
+      - "Design de pesquisas"
+      - "R"
+      - "SPSS"
 
   - cargo: "Programador de Banco de Dados Relacional"
     empresa: "Grupo Ciencia Tecnologia y Sociedad UNAL"
     fecha: "Jan 2001 - Jun 2002"
     color: "#4CAF50"
     descripcion: |
-      Participei no desenvolvimento da ferramenta que avaliou as revistas científicas
-      e tecnológicas a nível nacional, por meio do desenvolvimento de um módulo de indicadores
-      estatísticos. Este instrumento de avaliação foi chamado de "Publindex 2001" e foi
-      desenvolvido em Microsoft Access.
+      Participação no desenvolvimento da ferramenta que avaliou as revistas científicas e tecnológicas
+      a nível nacional, e no projeto "Construção do Sistema de Informação da Universidad Nacional
+      de Colombia".
     responsabilidades:
-      - "xxxx"
-      - "xxxx"
-      - "xxxx"
+      - "Desenvolvimento do módulo de indicadores estatísticos Publindex 2001 em Microsoft Access."
+      - "Desenvolvimento de sistema de informação para consulta ágil de projetos de pesquisa, pesquisadores e resultados da Universidad Nacional."
     logros:
-      - "yyyy"
-      - "yyyy"
+      - "Publindex 2001 implementado com sucesso como ferramenta oficial de avaliação de revistas científicas nacionais."
     tecnologias:
       - "Microsoft Access"
       - "Microsoft Excel"
