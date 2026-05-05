@@ -122,14 +122,11 @@ experiencia:
     fecha: "Oct 2022 - Dic 2025"
     color: "#FF9800"
     descripcion: |
-      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+      En desarrollo ...
     responsabilidades:
-      - "xxxx"
-      - "xxxx"
-      - "xxxx"
+      - "En desarrollo ..."
     logros:
-      - "yyyy"
-      - "yyyy"
+      - "En desarrollo ..."
     tecnologias:
       - "R"
       - "Python"
@@ -137,7 +134,7 @@ experiencia:
       - "MongoDB"
       - "SQL"
       - "Postgres"
-      - "Argis"
+      - "ArGis"
       - "Alteryx"
 
   - cargo: "Consultor Senior en Analítica y Procesos"
