@@ -1,34 +1,52 @@
 /*-- scss:defaults --*/
 
-// Colores principales
-$primary: #FF9800;
-$secondary: #00BCD4;
-$success: #4CAF50;
-$info: #1976D2;
-$warning: #FF9800;
-$danger: #F44336;
+// ── Paleta principal ──────────────────────────────────────────
+$primary:   #1A3A5C;   // Navy profundo — autoridad, consultoría
+$secondary: #0097A7;   // Teal analítico — datos, tecnología
+$success:   #2E7D60;   // Verde esmeralda
+$info:      #1565C0;   // Azul informativo
+$warning:   #E07B1A;   // Ámbar profesional — reemplaza naranja intenso
+$danger:    #C62828;
 
-// Tipografía
-$font-family-sans-serif: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-$headings-font-weight: 700;
+// ── Tipografía ────────────────────────────────────────────────
+$font-family-sans-serif:  'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$headings-font-family:    'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$headings-font-weight:    700;
+$headings-letter-spacing: -0.01em;
 
-// Colores de fondo
-$body-bg: #ffffff;
-$body-color: #333333;
+// ── Fondo y texto ─────────────────────────────────────────────
+$body-bg:    #FFFFFF;
+$body-color: #2D3748;   // Charcoal suave — más suave que negro puro
 
 /*-- scss:rules --*/
 
-// Personalizaciones adicionales
+// ── Headings ──────────────────────────────────────────────────
 h1, h2, h3, h4, h5, h6 {
   color: $primary;
+  font-family: $headings-font-family;
+  letter-spacing: -0.01em;
 }
 
+// ── Links ─────────────────────────────────────────────────────
 a {
   color: $secondary;
   text-decoration: none;
 
   &:hover {
-    color: darken($secondary, 10%);
+    color: darken($secondary, 12%);
     text-decoration: underline;
   }
+}
+
+// ── Navbar refinada ───────────────────────────────────────────
+.navbar {
+  box-shadow: 0 2px 12px rgba(26, 58, 92, 0.25);
+  letter-spacing: 0.01em;
+}
+
+.navbar-brand {
+  font-family: $headings-font-family;
+  font-weight: 800;
+  font-size: 1.2rem;
+  letter-spacing: 0.02em;
 }

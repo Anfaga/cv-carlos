@@ -17,7 +17,11 @@ es:
   family_man: "padre de familia con"
   years_old: "años de edad"
   download_pdf: "Descargar PDF"
-  
+  modal_description: "Descripción del Rol"
+  modal_responsibilities: "Responsabilidades"
+  modal_achievements: "Logros"
+  modal_technologies: "Tecnologías"
+
 en:
   profile: "Profile"
   education: "Education"
@@ -37,7 +41,11 @@ en:
   family_man: "family man,"
   years_old: "years old"
   download_pdf: "Download PDF"
-  
+  modal_description: "Role Description"
+  modal_responsibilities: "Responsibilities"
+  modal_achievements: "Achievements"
+  modal_technologies: "Technologies"
+
 pt:
   profile: "Perfil"
   education: "Educação"
@@ -57,3 +65,7 @@ pt:
   family_man: "pai de família com"
   years_old: "anos de idade"
   download_pdf: "Baixar PDF"
+  modal_description: "Descrição do Cargo"
+  modal_responsibilities: "Responsabilidades"
+  modal_achievements: "Conquistas"
+  modal_technologies: "Tecnologias"

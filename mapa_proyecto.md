@@ -81,93 +81,6 @@ App_CV_Carlos_Falla/
 │       ├── 71925be5
 │       ├── 9147e3a0
 │       └── INDEX
-├── .Rproj.user/
-│   ├── 3357A994/
-│   │   ├── bibliography-index/
-│   │   ├── ctx/
-│   │   ├── explorer-cache/
-│   │   ├── jobs/
-│   │   │   ├── C3CDA127-output.json
-│   │   │   ├── C9F86F16-output.json
-│   │   │   └── E2642397-output.json
-│   │   ├── pcs/
-│   │   │   ├── debug-breakpoints.pper
-│   │   │   ├── files-pane.pper
-│   │   │   ├── source-pane.pper
-│   │   │   ├── windowlayoutstate.pper
-│   │   │   └── workbench-pane.pper
-│   │   ├── presentation/
-│   │   ├── profiles-cache/
-│   │   ├── sources/
-│   │   │   ├── per/
-│   │   │   ├── prop/
-│   │   │   └── session-9de4398f/
-│   │   ├── tutorial/
-│   │   ├── viewer-cache/
-│   │   ├── viewer_history/
-│   │   ├── persistent-state
-│   │   ├── rmd-outputs
-│   │   └── saved_source_markers
-│   └── shared/
-│       └── notebooks/
-│           ├── 5722EADB-index/
-│           ├── 6C12BD7E-Informe_Estand_Evento/
-│           ├── 7A32150F-Informe_Estand_Vacuna/
-│           ├── D8BE9970-Informe_Estand_General/
-│           ├── E2F03847-Informe_Estand_Vacuna/
-│           ├── patch-chunk-names
-│           └── paths
-├── docs/
-│   ├── images/
-│   │   ├── ball.png
-│   │   ├── carlos-profile.jpg
-│   │   ├── certificate.png
-│   │   ├── church.png
-│   │   ├── education.png
-│   │   ├── email.png
-│   │   ├── experience.png
-│   │   ├── family.png
-│   │   ├── guitar.png
-│   │   ├── interests.png
-│   │   ├── languages.png
-│   │   ├── like.png
-│   │   ├── linkedin.png
-│   │   ├── location.png
-│   │   ├── profile.png
-│   │   ├── programming.png
-│   │   ├── reading.png
-│   │   ├── skills.png
-│   │   ├── smartphone.png
-│   │   ├── tools.png
-│   │   └── traveling.png
-│   ├── site_libs/
-│   │   ├── bootstrap/
-│   │   │   ├── bootstrap-6b41a02f487ee7ba591d4d47f5e7e027.min.css
-│   │   │   ├── bootstrap-icons.css
-│   │   │   ├── bootstrap-icons.woff
-│   │   │   └── bootstrap.min.js
-│   │   ├── clipboard/
-│   │   │   └── clipboard.min.js
-│   │   ├── quarto-html/
-│   │   │   ├── axe/
-│   │   │   ├── tabsets/
-│   │   │   ├── anchor.min.js
-│   │   │   ├── popper.min.js
-│   │   │   ├── quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css
-│   │   │   ├── quarto.js
-│   │   │   ├── tippy.css
-│   │   │   └── tippy.umd.min.js
-│   │   ├── quarto-nav/
-│   │   │   └── quarto-nav.js
-│   │   └── quarto-search/
-│   │       ├── autocomplete.umd.js
-│   │       ├── fuse.min.js
-│   │       └── quarto-search.js
-│   ├── index.html
-│   ├── INICIO-RAPIDO.html
-│   ├── PROYECTO-RESUMEN.html
-│   ├── search.json
-│   └── styles.css
 ├── images/
 │   ├── ball.png
 │   ├── carlos-profile.jpg
@@ -195,14 +108,15 @@ App_CV_Carlos_Falla/
 │   ├── traveling.png
 │   └── world.png
 ├── .gitignore
-├── .Rhistory
 ├── _quarto.yml
 ├── custom.scss
-├── cv-carlos.Rproj
-├── cv-data.yml
+├── cv-data-en.yml
+├── cv-data-es.yml
+
+├── cv-data-pt.yml
+
 ├── index.qmd
-├── inicio-rapido.bat
-├── INICIO-RAPIDO.md
-├── PROYECTO-RESUMEN.md
-├── README.md
+├── ejecutar_aplicacion.R
+├── navbar-i18n.js
+├── translations.yml
 └── styles.css

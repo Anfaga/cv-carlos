@@ -11,6 +11,7 @@ format:
 ```{r setup, include=FALSE}
 library(yaml)
 library(htmltools)
+library(jsonlite)
 
 # Get language parameter
 lang <- params$lang
@@ -21,6 +22,9 @@ cv_data <- read_yaml(paste0("cv-data-", lang, ".yml"))
 # Load translations
 translations <- read_yaml("translations.yml")
 tr <- translations[[lang]]
+
+# Null coalescing helper
+`%||%` <- function(a, b) if (!is.null(a) && length(a) > 0) a else b
 ```
 
 ::: {.hero-section}
@@ -169,15 +173,53 @@ for (idioma in cv_data$idiomas) {
 
 ::: {.experience-timeline}
 ```{r, echo=FALSE, results='asis'}
-for (exp in cv_data$experiencia) {
-  cat('<div class="experience-item">')
-  cat('<div class="experience-date">', exp$fecha, '</div>')
+`%||%` <- function(a, b) if (!is.null(a) && length(a) > 0) a else b
+
+for (i in seq_along(cv_data$experiencia)) {
+  exp <- cv_data$experiencia[[i]]
+  
+  # Detectar si tiene detalle para mostrar indicador visual
+  has_detail <- !is.null(exp$descripcion) && nchar(trimws(as.character(exp$descripcion))) > 0
+  
+  # Serializar datos del modal como JSON en atributo data-exp
+  # gsub escapa las comillas para que sea HTML-attribute safe;
+  # getAttribute() en JS las descodifica automáticamente antes de JSON.parse
+  exp_data <- list(
+    cargo             = as.character(exp$cargo             %||% ""),
+    empresa           = as.character(exp$empresa           %||% ""),
+    fecha             = as.character(exp$fecha             %||% ""),
+    descripcion       = as.character(exp$descripcion       %||% ""),
+    responsabilidades = as.list(exp$responsabilidades      %||% list()),
+    logros            = as.list(exp$logros                 %||% list()),
+    tecnologias       = as.list(exp$tecnologias            %||% list())
+  )
+  json_str  <- jsonlite::toJSON(exp_data, auto_unbox = TRUE)
+  json_attr <- gsub('"', '&quot;', json_str, fixed = TRUE)
+  
+  cat(paste0('<div class="experience-item experience-clickable"',
+             ' data-exp-idx="', i - 1, '"',
+             ' data-exp="', json_attr, '">'))
+  cat(paste0('<div class="experience-date">', exp$fecha, '</div>'))
   cat('<div class="experience-content">')
-  cat('<div class="experience-title">', exp$cargo, '</div>')
-  cat('<div class="experience-company">', exp$empresa, '</div>')
-  cat('</div>')
-  cat('</div>')
+  cat(paste0('<div class="experience-title">', exp$cargo, '</div>'))
+  cat(paste0('<div class="experience-company">', exp$empresa, '</div>'))
+  if (has_detail) {
+    cat('<div class="exp-more-hint">&#43; info</div>')
+  }
+  cat('</div></div>')
 }
+
+# Etiquetas traducidas para el modal (objeto pequeño, sin caracteres problemáticos)
+cat(paste0(
+  '<script>',
+  'window.expLabels={',
+  'description:"',     tr$modal_description,     '",',
+  'responsibilities:"',tr$modal_responsibilities, '",',
+  'achievements:"',    tr$modal_achievements,     '",',
+  'technologies:"',    tr$modal_technologies,     '"',
+  '};',
+  '</script>'
+))
 ```
 :::
 
@@ -215,3 +257,45 @@ for (interes in cv_data$intereses) {
 :::
 
 :::
+
+<!-- ═══════════════════════════════════════════════════
+     MODAL DE DETALLE DE EXPERIENCIA
+     Se abre al hacer clic en una tarjeta de experiencia
+     ═══════════════════════════════════════════════════ -->
+<div id="exp-modal-overlay" class="modal-overlay">
+  <div class="modal-box" role="dialog" aria-modal="true">
+
+    <!-- Header navy con cargo, empresa, fecha -->
+    <div class="modal-header">
+      <button class="modal-close" id="modal-close-btn" aria-label="Cerrar">&#215;</button>
+      <div id="modal-cargo"   class="modal-cargo"></div>
+      <div id="modal-empresa" class="modal-empresa"></div>
+      <div id="modal-fecha"   class="modal-fecha"></div>
+    </div>
+
+    <!-- Cuerpo scrollable con las secciones -->
+    <div class="modal-body">
+
+      <div id="modal-desc-section" class="modal-section">
+        <div class="modal-section-label" id="modal-label-desc"></div>
+        <div id="modal-descripcion" class="modal-description"></div>
+      </div>
+
+      <div id="modal-resp-section" class="modal-section">
+        <div class="modal-section-label" id="modal-label-resp"></div>
+        <ul id="modal-responsabilidades" class="modal-list modal-list-resp"></ul>
+      </div>
+
+      <div id="modal-logros-section" class="modal-section">
+        <div class="modal-section-label" id="modal-label-logros"></div>
+        <ul id="modal-logros" class="modal-list modal-list-logros"></ul>
+      </div>
+
+      <div id="modal-tech-section" class="modal-section">
+        <div class="modal-section-label" id="modal-label-tech"></div>
+        <div id="modal-tecnologias" class="modal-tags"></div>
+      </div>
+
+    </div>
+  </div>
+</div>

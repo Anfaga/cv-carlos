@@ -4,7 +4,6 @@
 library(quarto)
 library(pagedown)
 
-# Define available languages
 languages <- c("es", "en", "pt")
 
 cat("🌐 Building CV in", length(languages), "languages...\n\n")
@@ -15,21 +14,17 @@ cat("🌐 Building CV in", length(languages), "languages...\n\n")
 cat("🏁 Setting up flags directory...\n")
 if (!dir.exists("docs/images/flags")) {
   dir.create("docs/images/flags", recursive = TRUE)
-  cat("  ✓ Created docs/images/flags/\n")
 }
 
-# Copy flag images
 flags <- c("COL.png", "USA.png", "BRA.png")
 for (flag in flags) {
-  if (file.exists(paste0("images/flags/", flag))) {
-    file.copy(
-      paste0("images/flags/", flag),
-      paste0("docs/images/flags/", flag),
-      overwrite = TRUE
-    )
+  src <- paste0("images/flags/", flag)
+  dst <- paste0("docs/images/flags/", flag)
+  if (file.exists(src)) {
+    file.copy(src, dst, overwrite = TRUE)
     cat("  ✓ Copied", flag, "\n")
   } else {
-    cat("  ⚠️ Warning:", flag, "not found in images/flags/\n")
+    cat("  ⚠️  Warning:", flag, "not found\n")
   }
 }
 cat("\n")
@@ -42,59 +37,91 @@ if (file.exists("index.html")) {
   file.copy("index.html", "docs/index.html", overwrite = TRUE)
   cat("  ✓ index.html copied to docs/\n")
 } else {
-  cat("  ⚠️ Warning: index.html not found in root\n")
+  cat("  ⚠️  Warning: index.html not found\n")
 }
 cat("\n")
 
 # ========================================
-# STEP 1: RENDER HTML FOR EACH LANGUAGE
+# STEP 1: RENDER HTML (Quarto → web)
 # ========================================
 for (lang in languages) {
-  cat("📄 Rendering", toupper(lang), "version...\n")
-  
-  # Render with language parameter
+  cat("📄 Rendering", toupper(lang), "HTML (Quarto)...\n")
   quarto_render(
-    input = "index.qmd",
+    input       = "index.qmd",
     output_file = paste0("index-", lang, ".html"),
     execute_params = list(lang = lang)
   )
-  
   cat("✅", toupper(lang), "HTML rendered\n\n")
 }
 
 # ========================================
 # STEP 1.5: COPY NAVBAR JAVASCRIPT
 # ========================================
-cat("📋 Copying navbar internationalization script...\n")
+cat("📋 Copying navbar-i18n.js...\n")
 file.copy("navbar-i18n.js", "docs/navbar-i18n.js", overwrite = TRUE)
-cat("✅ JavaScript copied to docs/\n\n")
+cat("✅ JavaScript copied\n\n")
 
 # ========================================
-# STEP 2: GENERATE PDFs
+# STEP 2: GENERATE PRINT HTML (Python + Jinja2)
+# Misma lógica que generar_pdf.py del brochure BookFlow:
+# python lee el YAML, renderiza el template y produce un HTML
+# optimizado para una sola página.
 # ========================================
+cat("🐍 Generating print-optimized HTML via Python template...\n")
+
+python_cmd <- if (.Platform$OS.type == "windows") "python" else "python3"
+result <- system2(python_cmd, c("generar_pdf_hv.py", "all"), stdout = TRUE, stderr = TRUE)
+cat(paste(result, collapse = "\n"), "\n\n")
+
+if (!all(file.exists(paste0("docs/cv-print-", languages, ".html")))) {
+  cat("⚠️  Some print HTML files missing — falling back to Quarto HTML for PDF\n\n")
+  pdf_source <- "quarto"
+} else {
+  pdf_source <- "python"
+  cat("✅ Print HTML generated for all languages\n\n")
+}
+
+# ========================================
+# STEP 3: GENERATE PDFs
+# ========================================
+pdf_options <- list(
+  paperWidth  = 8.5,
+  paperHeight = 14,
+  marginTop   = 0,
+  marginBottom = 0,
+  marginLeft  = 0,
+  marginRight = 0,
+  printBackground    = TRUE,
+  preferCSSPageSize  = TRUE,
+  scale              = 1.0,
+  displayHeaderFooter = FALSE
+)
+
 for (lang in languages) {
   cat("🎨 Generating", toupper(lang), "PDF...\n")
-  
+
+  if (pdf_source == "python") {
+    input_html <- paste0("docs/cv-print-", lang, ".html")
+  } else {
+    # fallback: usar el HTML de Quarto (escala reducida para que quepa)
+    input_html <- paste0("docs/index-", lang, ".html")
+    pdf_options$scale <- 0.80
+    pdf_options$marginTop <- 0.05
+    pdf_options$marginBottom <- 0.1
+    pdf_options$marginLeft  <- 0.7
+    pdf_options$marginRight <- 0.7
+    pdf_options$preferCSSPageSize <- FALSE
+  }
+
   pagedown::chrome_print(
-    input = paste0("docs/index-", lang, ".html"),
-    output = paste0("docs/index-", lang, ".pdf"),
-    format = "pdf",
-    options = list(
-      paperWidth = 8.5,
-      paperHeight = 14,
-      marginTop = 0.05,
-      marginBottom = 0.1,
-      marginLeft = 0.7,
-      marginRight = 0.7,
-      printBackground = TRUE,
-      preferCSSPageSize = FALSE,
-      scale = 0.80,
-      displayHeaderFooter = FALSE
-    ),
+    input   = input_html,
+    output  = paste0("docs/index-", lang, ".pdf"),
+    format  = "pdf",
+    options = pdf_options,
     timeout = 120,
     extra_args = c("--disable-gpu", "--no-sandbox")
   )
-  
+
   cat("✅", toupper(lang), "PDF generated\n\n")
 }
 
@@ -105,20 +132,15 @@ cat("\n")
 cat("========================================\n")
 cat("✅ BUILD COMPLETE\n")
 cat("========================================\n")
+cat("PDF source:", pdf_source, "\n")
 cat("Generated files:\n")
 cat("  📄 docs/index.html (redirect)\n")
 for (lang in languages) {
-  cat("  📄 docs/index-", lang, ".html\n", sep = "")
+  cat("  📄 docs/index-", lang, ".html  (web)\n", sep = "")
+  if (pdf_source == "python") {
+    cat("  🖨️  docs/cv-print-", lang, ".html  (print template)\n", sep = "")
+  }
   cat("  📑 docs/index-", lang, ".pdf\n", sep = "")
 }
 cat("  📜 docs/navbar-i18n.js\n")
-cat("  🏁 docs/images/flags/ (", length(flags), " flags)\n", sep = "")
-cat("\n")
-cat("🌐 Available languages:", paste(toupper(languages), collapse = ", "), "\n")
-cat("📱 Features:\n")
-cat("  ✓ index.html redirects to index-es.html\n")
-cat("  ✓ Language-specific flag icons (16x16px)\n")
-cat("  ✓ Dynamic navbar translation via JavaScript\n")
-cat("  ✓ Language-specific PDF buttons\n")
-cat("  ✓ Dropdown menu with other languages\n")
 cat("\n🚀 Ready to deploy to GitHub Pages!\n")

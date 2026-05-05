@@ -102,50 +102,221 @@ experiencia:
     empresa: "Knowledge Application SAS"
     fecha: "Mar 2025 - Fev 2026"
     color: "#1976D2"
+    descripcion: |
+      Descrição do contexto da empresa e seu papel central em 1-2 frases.
+    responsabilidades:
+      - "Desenvolver modelos preditivos com Python e scikit-learn"
+      - "Projetar pipelines ETL para processamento de dados em tempo real"
+      - "Apresentar descobertas a equipes executivas e clientes"
+    logros:
+      - "Reduziu o tempo de processamento em 40% por meio de otimização de consultas"
+      - "Implementou 3 modelos em produção com precisão > 85%"
+    tecnologias:
+      - "Python"
+      - "scikit-learn"
+      - "Azure"
+      - "SQL"
+
   - cargo: "Consultor Internacional em Análise"
     empresa: "Organização Pan-Americana da Saúde (OPAS)"
     fecha: "Out 2022 - Dez 2025"
     color: "#FF9800"
+    descripcion: |
+      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+    responsabilidades:
+      - "xxxx"
+      - "xxxx"
+      - "xxxx"
+    logros:
+      - "yyyy"
+      - "yyyy"
+    tecnologias:
+      - "aaaaaaaaaa"
+      - "bbbbbbbbbb"
+      - "cccccccccc"
+
   - cargo: "Consultor Sênior em Análise e Processos"
     empresa: "Quality Customer Service SAS"
     fecha: "Mar 2020 - Set 2022"
     color: "#FF9800"
+    descripcion: |
+      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+    responsabilidades:
+      - "xxxx"
+      - "xxxx"
+      - "xxxx"
+    logros:
+      - "yyyy"
+      - "yyyy"
+    tecnologias:
+      - "aaaaaaaaaa"
+      - "bbbbbbbbbb"
+      - "cccccccccc"
+
   - cargo: "Gerente de Dados"
     empresa: "YouNeed SAS"
     fecha: "Jan 2020 - Mar 2020"
     color: "#FF9800"
+    descripcion: |
+      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+    responsabilidades:
+      - "xxxx"
+      - "xxxx"
+      - "xxxx"
+    logros:
+      - "yyyy"
+      - "yyyy"
+    tecnologias:
+      - "aaaaaaaaaa"
+      - "bbbbbbbbbb"
+      - "cccccccccc"
+
   - cargo: "Consultor Técnico Sênior em Inteligência de Negócios"
     empresa: "Conexia SAS"
     fecha: "Abr 2014 - Jan 2020"
     color: "#FF9800"
+    descripcion: |
+      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+    responsabilidades:
+      - "xxxx"
+      - "xxxx"
+      - "xxxx"
+    logros:
+      - "yyyy"
+      - "yyyy"
+    tecnologias:
+      - "aaaaaaaaaa"
+      - "bbbbbbbbbb"
+      - "cccccccccc"
+
   - cargo: "Diretor de Estatística e Previsão"
     empresa: "Americas Business Process Services"
     fecha: "Nov 2012 - Abr 2014"
     color: "#1976D2"
+    descripcion: |
+      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+    responsabilidades:
+      - "xxxx"
+      - "xxxx"
+      - "xxxx"
+    logros:
+      - "yyyy"
+      - "yyyy"
+    tecnologias:
+      - "aaaaaaaaaa"
+      - "bbbbbbbbbb"
+      - "cccccccccc"
+
   - cargo: "Consultor Estatístico"
     empresa: "Sistemas y Computadores S.A"
     fecha: "Set 2009 - Nov 2012"
     color: "#1976D2"
+    descripcion: |
+      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+    responsabilidades:
+      - "xxxx"
+      - "xxxx"
+      - "xxxx"
+    logros:
+      - "yyyy"
+      - "yyyy"
+    tecnologias:
+      - "aaaaaaaaaa"
+      - "bbbbbbbbbb"
+      - "cccccccccc"
+
   - cargo: "Estatístico"
     empresa: "CSJ - Unidade de Desenvolvimento e Análise Estatística"
     fecha: "Nov 2004 - Set 2009"
     color: "#1976D2"
+    descripcion: |
+      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+    responsabilidades:
+      - "xxxx"
+      - "xxxx"
+      - "xxxx"
+    logros:
+      - "yyyy"
+      - "yyyy"
+    tecnologias:
+      - "aaaaaaaaaa"
+      - "bbbbbbbbbb"
+      - "cccccccccc"
+
   - cargo: "Estatístico e Coordenador de Projetos"
     empresa: "Procuraduría General de la Nación"
     fecha: "Jun 2003 - Nov 2004"
     color: "#1976D2"
+    descripcion: |
+      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+    responsabilidades:
+      - "xxxx"
+      - "xxxx"
+      - "xxxx"
+    logros:
+      - "yyyy"
+      - "yyyy"
+    tecnologias:
+      - "aaaaaaaaaa"
+      - "bbbbbbbbbb"
+      - "cccccccccc"
+
   - cargo: "Estatístico"
     empresa: "Soluciones en Comunicación y Software (SC&S)"
     fecha: "Dez 2002 - Jun 2003"
     color: "#1976D2"
+    descripcion: |
+      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+    responsabilidades:
+      - "xxxx"
+      - "xxxx"
+      - "xxxx"
+    logros:
+      - "yyyy"
+      - "yyyy"
+    tecnologias:
+      - "aaaaaaaaaa"
+      - "bbbbbbbbbb"
+      - "cccccccccc"
+
   - cargo: "Estatístico e Coordenador Técnico de Projetos"
     empresa: "Cooperativa del Territorio Colombiano COOTECOL"
     fecha: "Jul 2002 - Nov 2002"
     color: "#1976D2"
+    descripcion: |
+      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+    responsabilidades:
+      - "xxxx"
+      - "xxxx"
+      - "xxxx"
+    logros:
+      - "yyyy"
+      - "yyyy"
+    tecnologias:
+      - "aaaaaaaaaa"
+      - "bbbbbbbbbb"
+      - "cccccccccc"
+
   - cargo: "Programador de Banco de Dados Relacional"
     empresa: "Grupo Ciencia Tecnologia y Sociedad UNAL"
     fecha: "Jan 2001 - Jun 2002"
     color: "#4CAF50"
+    descripcion: |
+      Participei no desenvolvimento da ferramenta que avaliou as revistas científicas
+      e tecnológicas a nível nacional, por meio do desenvolvimento de um módulo de indicadores
+      estatísticos. Este instrumento de avaliação foi chamado de "Publindex 2001" e foi
+      desenvolvido em Microsoft Access.
+    responsabilidades:
+      - "xxxx"
+      - "xxxx"
+      - "xxxx"
+    logros:
+      - "yyyy"
+      - "yyyy"
+    tecnologias:
+      - "Microsoft Access"
+      - "Microsoft Excel"
+      - "SQL"
 
 referencias:
   - nombre: "Edward Lemus"

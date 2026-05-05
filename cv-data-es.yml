@@ -102,50 +102,232 @@ experiencia:
     empresa: "Knowledge Application SAS"
     fecha: "Mar 2025 - Feb 2026"
     color: "#1976D2"
+    descripcion: |
+      Descripción del contexto de la empresa y tu rol central en 1-2 oraciones.
+    responsabilidades:
+      - "Desarrollar modelos predictivos con Python y scikit-learn"
+      - "Diseñar pipelines ETL para procesamiento de datos en tiempo real"
+      - "Presentar hallazgos a equipos directivos y clientes"
+    logros:
+      - "Redujo el tiempo de procesamiento en un 40% mediante optimización de queries"
+      - "Implementó 3 modelos en producción con precisión > 85%"
+    tecnologias:
+      - "Python"
+      - "scikit-learn"
+      - "Azure"
+      - "SQL"
+
   - cargo: "Consultor Internacional en Analítica"
     empresa: "Organización Panamericana de la Salud (OPS)"
     fecha: "Oct 2022 - Dic 2025"
     color: "#FF9800"
+    descripcion: |
+      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+    responsabilidades:
+      - "xxxx"
+      - "xxxx"
+      - "xxxx"
+    logros:
+      - "yyyy"
+      - "yyyy"
+    tecnologias:
+      - "R"
+      - "Python"
+      - "Shiny"
+      - "MongoDB"
+      - "SQL"
+      - "Postgres"
+      - "Argis"
+      - "Alteryx"
+
   - cargo: "Consultor Senior en Analítica y Procesos"
     empresa: "Quality Customer Service SAS"
     fecha: "Mar 2020 - Sep 2022"
     color: "#FF9800"
+    descripcion: |
+      Responsable del grupo de analítica y desarrollo de soluciones automatizadas.
+    responsabilidades:
+      - "Además de soportar técnicamente los procesos comerciales, me focalizo en el análisis, modelamiento y visualización de datos en todos los procesos de nuestros clientes, para la toma de decisiones efectivas y proactivas."
+    logros:
+      - ""
+      - ""
+    tecnologias:
+      - "R"
+      - "Alteryx"
+      - "Tableau"
+      - "Tableau Prep"
+      - "Power BI"
+      - "QlikSense"
+
   - cargo: "Gerente de Datos"
     empresa: "YouNeed SAS"
     fecha: "Ene 2020 - Mar 2020"
     color: "#FF9800"
+    descripcion: |
+      Responsable de los procesos de minería de datos y analítica, coordinando diferentes proyectos enfocados a la generación de valor agregado a los clientes a partir de su información.
+    responsabilidades:
+      - ""
+      - ""
+      - ""
+    logros:
+      - ""
+      - ""
+    tecnologias:
+      - "R"
+      - "Python"
+      - "Shiny"
+      - "MongoDB"
+      - "SQL"
+
   - cargo: "Consultor Técnico Senior en Inteligencia de Negocios"
     empresa: "Conexia SAS"
     fecha: "Abr 2014 - Ene 2020"
     color: "#FF9800"
+    descripcion: |
+      Trabajé en la generación de valor a nuestros clientes a través de la construcción de Sistemas de Indicadores, que permitieron la evaluación y seguimiento de los procesos.
+    responsabilidades:
+      - "Responsable de la coordinación del grupo de inteligencia de negocios, creando los dashboards de seguimiento a los procesos de nuestros clientes bajo las plataformas Qlikview y Qlik Sense."
+      - "Coordinador y director de los equipos conformados para el desarrollo los proyectos de investigación que la compañía realiza anualmente con la Stanford Graduate School of Business, y el Instituto Tecnológico de Massachusetts (MIT), llamados “Big Data Project” y “System of indicators to measure and assess the relationship between health risk management and financial sustainability in an insurer” respectivamente"
+      - "xxxx"
+    logros:
+      - "Encaminar a la compañía en el mundo de la Analítica y la construcción de una línea base de indicadores"
+      - "Enriquecer la compañía en el seguimiento y control de la gestión de los procesos de sus clientes"
+    tecnologias:
+      - "QlikSense"
+      - "QlikView"
+
   - cargo: "Director de Estadística y Pronóstico"
     empresa: "Americas Business Process Services"
     fecha: "Nov 2012 - Abr 2014"
     color: "#1976D2"
+    descripcion: |
+      Encargada del pronóstico, planeación, programación y gestión en tiempo real (GTR) de los recursos dedicados a las campañas de los clientes.
+    responsabilidades:
+      - "Establecer y hacer cumplir los procedimientos que permitían llevar a cabo las actividades de pronóstico, planeación, programación y gestión en tiempo real (GTR)."
+      - "Generar valor agregado a los análisis de la información de los clientes, con el uso de herramientas de minería de datos y análisis de información."
+      - "Administrando el tiempo y los recursos de los equipos de operación a través de la programación y pronóstico."
+      - "Pronóstico: Determinar a futuro el número de transacciones entrantes y los tiempos promedio de transacción, con técnicas estadísticas de modelamiento predictivo; para cada uno de los procesos o campañas con la frecuencia indicada según la duración del ciclo."
+      - "Planeación: Asignar los recursos necesarios (personas, puestos de trabajo) para atender el pronóstico realizado con base en los inputs, de acuerdo a la duración del ciclo."
+      - "Programación: Asignar de manera puntual los recursos que se definieron en la planificación, acorde con el pronóstico y la planificación realizada."
+      - "GTR: Controlar el tiempo de los indicadores de servicio y eficiencia de cada uno de los procesos o programas desde el control en tiempo real."
+
+    logros:
+      - "Puntualidad y calidad en los informes."
+      - "Satisfacción del cliente."
+      - "Cumplimiento de indicadores de precisión en el pronóstico"
+    tecnologias:
+      - "QlikSense"
+      - "Project"
+      - "R"
+
   - cargo: "Consultor Estadístico"
     empresa: "Sistemas y Computadores S.A"
     fecha: "Sep 2009 - Nov 2012"
     color: "#1976D2"
+    descripcion: |
+      Ofrecer servicios KPO con tareas de alto nivel en el análisis de información basadas en técnicas estadísticas, investigación y desarrollo de consultoría; directamente a las Vicepresidencias y Gerencias de sus clientes.
+    responsabilidades:
+      - "Segmentación de clientes según información para estructuración de estrategias comerciales, preventivas y financieras."
+      - "Desarrollo de estrategias y diseños estadísticos adecuados al negocio que permitan generar valor agregado a los clientes y al servicio de la compañía."
+      - "Asesorar permanentemente a la compañía, a través de los resultados de análisis para la toma de decisiones."
+      - "Revisión, planteamiento y creación de indicadores y tasas, correspondientes a las áreas de trabajo"
+    logros:
+      - ""
+      - ""
+    tecnologias:
+      - "SPSS"
+      - "Clementain (Modeler)"
+
   - cargo: "Estadístico"
     empresa: "CSJ - Unidad de Desarrollo y Análisis Estadístico"
     fecha: "Nov 2004 - Sep 2009"
     color: "#1976D2"
+    descripcion: |
+      Pendiente.
+    responsabilidades:
+      - "Procesamiento, consulta, y análisis de información referente a la gestión de los procesos que reportan los despachos judiciales del país; interventoría de proyectos de desarrollo de metodologías y modelos para la gestión del aparato judicial."
+      - "Desarrollo de proyectos de evaluación de procesos judiciales, para la caracterización socio demográfica de la especialidad penal, civil y de familia"
+      - "Desarrollo del plan de muestreo y estudio de los tiempos procesales."
+    logros:
+      - ""
+      - ""
+    tecnologias:
+      - "Microsoft Acces"
+      - "SQL"
+      - "SPSS"
+      - "Clementain (Modeler)"
+
   - cargo: "Estadístico y Coordinador de proyectos"
     empresa: "Procuraduría General de la Nación"
     fecha: "Jun 2003 - Nov 2004"
     color: "#1976D2"
+    descripcion: |
+      Análisis de información de gestión y desempeño, correspondiente a los servidores de la Procuraduría General a nivel nacional.
+    responsabilidades:
+      - ""
+      - ""
+      - ""
+    logros:
+      - ""
+      - ""
+    tecnologias:
+      - "Microsoft Access"
+      - "Microsoft Excel"
+      - "SQL"
+
   - cargo: "Estadístico"
     empresa: "Soluciones en Comunicación y Software (SC&S)"
     fecha: "Dic 2002 - Jun 2003"
     color: "#1976D2"
+    descripcion: |
+      Realizar control de calidad a la información reportada a la Comisión de Regulación de Energía y Gas (CREG), por las empresas generadoras y distribuidoras de estos servicios; al mismo tiempo en la consulta, filtro y análisis estadístico de dicha información..
+    responsabilidades:
+      - ""
+      - ""
+      - ""
+    logros:
+      - ""
+      - ""
+    tecnologias:
+      - "R"
+      - "Microsoft Excel"
+      - ""
+
   - cargo: "Estadístico y Coordinador Técnico de proyectos"
     empresa: "Cooperativa del Territorio Colombiano COOTECOL"
     fecha: "Jul 2002 - Nov 2002"
     color: "#1976D2"
-  - cargo: "Programador de bases de datos relacionasles"
+    descripcion: |
+      Estadístico y Coordinador Técnico del Proyecto “Fortalecimiento del Sector Informal – Condiciones Laborales del Sector Informal de la Mecánica Automotriz en Bogotá.
+    responsabilidades:
+      - ""
+      - ""
+      - ""
+    logros:
+      - "En este proyecto se elaboró un diagnóstico del sector informal de la mecánica automotriz en Bogotá, se desarrollaron y presentaron al Ministerio de Salud y Seguridad Social y específicamente al Sistema General de Riesgos Profesionales, propuestas concretas de vinculación de los trabajadores de este sector al sistema de seguridad social que integra salud, pensión y riesgos profesionales."
+      - "yyyy"
+    tecnologias:
+      - "Diseño de encuestas"
+      - "R"
+      - "SPSS"
+
+  - cargo: "Programador de bases de datos relacionales"
     empresa: "Grupo Ciencia Tecnologia y Sociedad UNAL"
     fecha: "Ene 2001 - Jun 2002"
     color: "#4CAF50"
+    descripcion: |
+      Participé en el desarrollo de la herramienta que evaluó las revistas científicas
+      y tecnológicas a nivel nacional.
+
+      También particpé en el proyecto “Construcción del Sistema de Información de la Universidad Nacional de Colombia”,
+    responsabilidades:
+      - "Desarrollo de un módulo de indicadores estadísticos como instrumento de evaluación llamado Publindex 2001, desarrollado en Microsoft Access."
+    logros:
+      - "Descripción: Desarrollé un sistema de información, en Microsoft Access, que permite la consulta ágil y veraz de los proyectos de investigación asociados a la universidad, los investigadores y los resultados con el fin de optimizar los recursos y planeaciones de los nuevos proyectos."
+    tecnologias:
+      - "Microsoft Access"
+      - "Microsoft Excel"
+      - "SQL"
 
 referencias:
   - nombre: "Edward Lemus"

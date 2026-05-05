@@ -5,7 +5,7 @@ project:
 website:
   title: "Carlos Andrés Falla Gaitán"
   navbar:
-    background: "#FF9800"
+    background: "#1A3A5C"
     foreground: white
     pinned: true
     right:
@@ -33,6 +33,11 @@ format:
       sidebar-width: 0px
       body-width: 1200px
       margin-width: 0px
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&family=Inter:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
     include-after-body:
       - text: |
           <script src="navbar-i18n.js"></script>
