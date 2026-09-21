@@ -1,0 +1,8 @@
+# Estado del proyecto para el tablero de Anfaga Analytics.
+# Actualizar al cerrar cada cambio que mueva el avance.
+# Etapas: idea | diagnostico | propuesta | plan | diseno | desarrollo | pruebas | produccion | operacion
+version: 1
+etapa: operacion
+avance_etapa: 100
+tarea_actual: "Sitio de CV personal publicado; actualizaciones puntuales de contenido"
+actualizado: "2026-09-21"
